@@ -2,6 +2,10 @@ import { supabaseAdmin } from '@/lib/supabase/admin';
 import { evaluateArticle } from './evaluateArticle';
 import { fetchArticleContent } from '@/lib/scraper/fetchArticleContent';
 
+import { deduplicateArticles } from '@/lib/dedup/deduplicateArticles';
+import { embedText } from '@/lib/dedup/embedText';
+import { cosineSimilarity } from '@/lib/dedup/similarity';
+
 /* ================= TYPES ================= */
 
 type SearchArticle = {
@@ -14,6 +18,13 @@ type SearchResultsByDriver = Record<
   Record<string, SearchArticle[]>
 >;
 
+type ScrapedArticle = {
+  title: string;
+  url: string;
+  content: string;
+  driverId: number;
+};
+
 /* ================= CONFIG ================= */
 
 const MAX_PARALLEL = 5;
@@ -21,6 +32,7 @@ const SCRAPE_TIMEOUT_MS = 15_000;
 const EVAL_TIMEOUT_MS = 25_000;
 const MAX_EVAL_RETRIES = 2;
 const DB_BATCH_SIZE = 20;
+const DB_SIMILARITY_THRESHOLD = 0.85;
 
 /* ================= UTILS ================= */
 
@@ -104,16 +116,20 @@ export async function processAndStoreArticles({
   let saved = 0;
   let skipped = 0;
 
-  const pendingRows: any[] = [];
-  const tasks: (() => Promise<void>)[] = [];
+  const scrapedArticles: ScrapedArticle[] = [];
 
-  /* -------- Build tasks -------- */
+  /* --------------------------------------------------
+     1️⃣ SCRAPE ARTICLES (NO OpenAI YET)
+  -------------------------------------------------- */
+
+  const scrapeTasks: (() => Promise<void>)[] = [];
+
   for (const [driverIdStr, queries] of Object.entries(searchResults)) {
     const driverId = Number(driverIdStr);
 
     for (const articles of Object.values(queries)) {
       for (const article of articles) {
-        tasks.push(async () => {
+        scrapeTasks.push(async () => {
           total++;
 
           try {
@@ -125,54 +141,23 @@ export async function processAndStoreArticles({
               'Scrape'
             );
 
-            if (!content) {
+            if (!content || content.length < 500) {
               skipped++;
               return;
             }
 
             scraped++;
 
-            const evaluation = await evaluateWithRetry({
-              article: content,
-              context,
-              metric,
-              driver: String(driverId),
-            });
-
-            evaluated++;
-
-            console.log(
-              `[EVAL] "${article.title}" → score=${evaluation.score}`
-            );
-
-            if (evaluation.score < 4) {
-              skipped++;
-              return;
-            }
-
-            pendingRows.push({
-              company_id: companyId,
+            scrapedArticles.push({
               title: article.title,
               url: article.url,
-              snippet: content.slice(0, 500),
-              article_content: content,
-              summary: evaluation.summary,
-              score: evaluation.score,
-              driver: driverId,
+              content,
+              driverId,
             });
-
-            if (pendingRows.length >= DB_BATCH_SIZE) {
-              console.log(
-                `[DB] ⏳ Threshold reached (${pendingRows.length})`
-              );
-              await flushUpsert(pendingRows);
-              saved += pendingRows.length;
-              pendingRows.length = 0;
-            }
           } catch (err: any) {
             skipped++;
             console.error(
-              `[ERROR] ❌ ${article.title}: ${err.message}`
+              `[SCRAPE ERROR] ❌ ${article.title}: ${err.message}`
             );
           }
         });
@@ -180,34 +165,116 @@ export async function processAndStoreArticles({
     }
   }
 
-  /* -------- Execute in chunks -------- */
   console.log(
-    `[PROCESS] ⚙️ ${tasks.length} tasks | concurrency=${MAX_PARALLEL}`
+    `[PROCESS] ⚙️ Scraping ${scrapeTasks.length} articles`
   );
 
-  for (let i = 0; i < tasks.length; i += MAX_PARALLEL) {
-    const chunk = tasks.slice(i, i + MAX_PARALLEL);
-    console.log(
-      `[PROCESS] ▶ Running tasks ${i + 1}–${i + chunk.length} / ${tasks.length}`
-    );
-
+  for (let i = 0; i < scrapeTasks.length; i += MAX_PARALLEL) {
+    const chunk = scrapeTasks.slice(i, i + MAX_PARALLEL);
     await Promise.all(chunk.map((t) => t()));
-
-    console.log(
-      `[PROCESS] ✔ Completed ${Math.min(
-        i + MAX_PARALLEL,
-        tasks.length
-      )}/${tasks.length}`
-    );
   }
 
-  /* -------- Final DB flush -------- */
-  if (pendingRows.length > 0) {
+  console.log(
+    `[PROCESS] ✅ Scraped ${scrapedArticles.length} articles`
+  );
+
+  /* --------------------------------------------------
+     2️⃣ DEDUP CURRENT RUN (SEMANTIC)
+  -------------------------------------------------- */
+
+  console.log(`[DEDUP] 🔎 Deduplicating current batch`);
+
+  const deduped = await deduplicateArticles(
+    scrapedArticles.map((a) => ({
+      title: a.title,
+      content: a.content,
+    }))
+  );
+
+  const dedupedArticles = scrapedArticles.filter((a) =>
+    deduped.some((d) => d.content === a.content)
+  );
+
+  console.log(
+    `[DEDUP] ✅ Reduced ${scrapedArticles.length} → ${dedupedArticles.length}`
+  );
+
+  /* --------------------------------------------------
+     3️⃣ LOAD EXISTING ARTICLES FOR DB DEDUP
+  -------------------------------------------------- */
+
+  const { data: existing } = await supabaseAdmin
+    .from('articles')
+    .select('article_content')
+    .eq('company_id', companyId)
+    .limit(200);
+
+  const existingEmbeddings = existing
+    ? await Promise.all(
+        existing.map((a) => embedText(a.article_content))
+      )
+    : [];
+
+  /* --------------------------------------------------
+     4️⃣ EVALUATE + STORE
+  -------------------------------------------------- */
+
+  const rowsToUpsert: any[] = [];
+
+  for (const article of dedupedArticles) {
+    evaluated++;
+
+    const evaluation = await evaluateWithRetry({
+      article: article.content,
+      context,
+      metric,
+      driver: String(article.driverId),
+    });
+
     console.log(
-      `[DB] ⏳ Final flush (${pendingRows.length})`
+      `[EVAL] "${article.title}" → score=${evaluation.score}`
     );
-    await flushUpsert(pendingRows);
-    saved += pendingRows.length;
+
+    if (evaluation.score < 4) {
+      skipped++;
+      continue;
+    }
+
+    const embedding = await embedText(article.content);
+
+    const isDuplicateInDB = existingEmbeddings.some(
+      (e) => cosineSimilarity(e, embedding) >= DB_SIMILARITY_THRESHOLD
+    );
+
+    if (isDuplicateInDB) {
+      skipped++;
+      console.log(
+        `[DEDUP-DB] ⛔ Skipping duplicate "${article.title}"`
+      );
+      continue;
+    }
+
+    rowsToUpsert.push({
+      company_id: companyId,
+      title: article.title,
+      url: article.url,
+      snippet: article.content.slice(0, 500),
+      article_content: article.content,
+      summary: evaluation.summary,
+      score: evaluation.score,
+      driver: article.driverId,
+    });
+
+    if (rowsToUpsert.length >= DB_BATCH_SIZE) {
+      await flushUpsert(rowsToUpsert);
+      saved += rowsToUpsert.length;
+      rowsToUpsert.length = 0;
+    }
+  }
+
+  if (rowsToUpsert.length > 0) {
+    await flushUpsert(rowsToUpsert);
+    saved += rowsToUpsert.length;
   }
 
   console.log(`\n[PROCESS] ✅ DONE`);
@@ -233,4 +300,3 @@ async function flushUpsert(rows: any[]) {
     console.log('[DB] ✅ Upsert success');
   }
 }
-

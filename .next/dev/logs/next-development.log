@@ -1,0 +1,1185 @@
+[00:00:03.379] Server  LOG     ✓ Ready in 2.6s
+[00:00:15.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:27.067] Server  LOG     
+[RESEARCH] 🚀 Starting research for company 4
+[00:01:27.072] Server  LOG     [RESEARCH] 🧩 Generating queries
+[00:01:27.075] Server  LOG     
+[QUERY] ▶ Generating queries for driver: "Global Data Center Capex Cycles" (id=7)
+[00:01:27.076] Server  LOG     
+[QUERY] ▶ Generating queries for driver: "Global Data Center Capex Cycles"
+[00:01:27.077] Server  LOG     [QUERY] Attempt 1/3
+[00:01:33.232] Server  LOG     [QUERY] Generated 12/12 valid queries
+[00:01:33.234] Server  LOG        1. Amazon Web Services announces new hyperscale data center buildout in Northern Virginia.
+[00:01:33.241] Server  LOG        2. Microsoft Azure reveals plans for a major data center expansion in Europe.
+[00:01:33.254] Server  LOG        3. Google Cloud secures long-term lease for new data center facility in Singapore.
+[00:01:33.256] Server  LOG        4. Equinix partners with Digital Realty for joint data center campus development in Dallas.
+[00:01:33.257] Server  LOG        5. Verizon invests in 5G infrastructure upgrades to enhance data center connectivity nationwide.
+[00:01:33.258] Server  LOG        6. Intel announces capital expenditure increase for semiconductor fab infrastructure expansion.
+[00:01:33.260] Server  LOG        7. Meta Platforms discloses new AI data center investment in Austin, Texas.
+[00:01:33.263] Server  LOG        8. NVIDIA partners with Vertiv for advanced cooling solutions in new data center projects.
+[00:01:33.266] Server  LOG        9. AT&T reveals plans for telecom central office modernization across multiple states.
+[00:01:33.267] Server  LOG        10. Samsung Electronics expands semiconductor manufacturing capacity to meet rising demand.
+[00:01:33.269] Server  LOG        11. Telefónica announces strategic partnership for edge computing infrastructure deployment in Spain.
+[00:01:33.270] Server  LOG        12. China Mobile invests in power capacity expansion for new data center facilities.
+[00:01:33.272] Server  LOG     [QUERY] ✅ Query generation successful for driver "Global Data Center Capex Cycles"
+[00:01:33.274] Server  LOG     [QUERY] ✅ Generated 12/12 valid queries
+[00:01:33.275] Server  LOG     
+[RESEARCH] 🔍 Executing Brave search
+[00:01:33.276] Server  LOG     
+[SEARCH] 🔍 Starting Brave search (recency: 30 days)
+[00:01:33.279] Server  LOG     
+[SEARCH] ▶ Driver: "7"
+[00:01:33.280] Server  LOG     [SEARCH] → Query: Amazon Web Services announces new hyperscale data center buildout in Northern Virginia.
+[00:01:34.973] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:34.974] Server  LOG     [SEARCH] → Query: Microsoft Azure reveals plans for a major data center expansion in Europe.
+[00:01:35.762] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:35.764] Server  LOG     [SEARCH] → Query: Google Cloud secures long-term lease for new data center facility in Singapore.
+[00:01:36.507] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:36.509] Server  LOG     [SEARCH] → Query: Equinix partners with Digital Realty for joint data center campus development in Dallas.
+[00:01:37.201] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:37.203] Server  LOG     [SEARCH] → Query: Verizon invests in 5G infrastructure upgrades to enhance data center connectivity nationwide.
+[00:01:37.884] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:37.885] Server  LOG     [SEARCH] → Query: Intel announces capital expenditure increase for semiconductor fab infrastructure expansion.
+[00:01:38.645] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:38.647] Server  LOG     [SEARCH] → Query: Meta Platforms discloses new AI data center investment in Austin, Texas.
+[00:01:39.443] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:39.444] Server  LOG     [SEARCH] → Query: NVIDIA partners with Vertiv for advanced cooling solutions in new data center projects.
+[00:01:40.140] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:40.141] Server  LOG     [SEARCH] → Query: AT&T reveals plans for telecom central office modernization across multiple states.
+[00:01:40.870] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:40.871] Server  LOG     [SEARCH] → Query: Samsung Electronics expands semiconductor manufacturing capacity to meet rising demand.
+[00:01:41.625] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:41.625] Server  LOG     [SEARCH] → Query: Telefónica announces strategic partnership for edge computing infrastructure deployment in Spain.
+[00:01:42.373] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:42.375] Server  LOG     [SEARCH] → Query: China Mobile invests in power capacity expansion for new data center facilities.
+[00:01:43.088] Server  LOG     [SEARCH] ← 20 articles returned
+[00:01:43.091] Server  LOG     [SEARCH] ✅ Brave search completed
+[00:01:43.093] Server  LOG     [RESEARCH] ✅ Brave search completed
+[00:01:43.094] Server  LOG     
+[RESEARCH] 🧠 Evaluating and storing articles
+[00:01:43.095] Server  LOG     
+[PROCESS] 🚀 Start for company 4
+[00:01:43.096] Server  LOG     [PROCESS] ⚙️ 240 tasks | concurrency=5
+[00:01:43.099] Server  LOG     [PROCESS] ▶ Running tasks 1–5 / 240
+[00:01:43.116] Server  LOG     [SCRAPE] 🌐 VC Warns of AI Data Center Boom Sparking 2027 Financing Crisis
+[00:01:43.137] Server  LOG     [SCRAPE] 🌐 Why more residents are saying 'No' to AI data centers in their backyard
+[00:01:43.151] Server  LOG     [SCRAPE] 🌐 Amazon Data Centers Aren’t Raising Your Electric Bills—They May Be Lowering Them
+[00:01:43.159] Server  LOG     [SCRAPE] 🌐 US data centers’ energy use amid the artificial intelligence boom | Pew Research Center
+[00:01:43.173] Server  LOG     [SCRAPE] 🌐 Data center developer breaks ground on $3B Virginia campus | Construction Dive
+[00:01:49.785] Server  LOG     [EVAL] "Amazon Data Centers Aren’t Raising Your Electric Bills—They May Be Lowering Them" → score=4
+[00:01:49.958] Server  LOG     [EVAL] "US data centers’ energy use amid the artificial intelligence boom | Pew Research Center" → score=4
+[00:01:50.441] Server  LOG     [EVAL] "Data center developer breaks ground on $3B Virginia campus | Construction Dive" → score=4
+[00:01:55.172] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:01:55.173] Server  LOG     [PROCESS] ✔ Completed 5/240
+[00:01:55.174] Server  LOG     [PROCESS] ▶ Running tasks 6–10 / 240
+[00:01:55.174] Server  LOG     [SCRAPE] 🌐 Virginia's data center construction boom is even bigger than you think. One company is behind most of it.
+[00:01:55.179] Server  LOG     [SCRAPE] 🌐 2025’s Biggest Data Center Construction Stories: A Year in Review
+[00:01:55.187] Server  LOG     [SCRAPE] 🌐 Hyperscalers in 2024: Where Next For the Biggest Data Centers?
+[00:01:55.197] Server  LOG     [SCRAPE] 🌐 $4 billion Amazon data center proposal in Wilmington advances to next stage, residents want pause
+[00:01:55.224] Server  LOG     [SCRAPE] 🌐 New Amazon Data Center Breaks Ground in NoVa | CommercialCafe
+[00:01:59.043] Server  LOG     [EVAL] "Virginia's data center construction boom is even bigger than you think. One company is behind most of it." → score=5
+[00:01:59.646] Server  LOG     [EVAL] "$4 billion Amazon data center proposal in Wilmington advances to next stage, residents want pause" → score=3
+[00:02:00.706] Server  LOG     [EVAL] "2025’s Biggest Data Center Construction Stories: A Year in Review" → score=4
+[00:02:01.515] Server  LOG     [EVAL] "Hyperscalers in 2024: Where Next For the Biggest Data Centers?" → score=5
+[00:02:01.518] Server  LOG     [PROCESS] ✔ Completed 10/240
+[00:02:01.519] Server  LOG     [PROCESS] ▶ Running tasks 11–15 / 240
+[00:02:01.521] Server  LOG     [SCRAPE] 🌐 Mapped: U.S. States With the Most Data Centers in 2025
+[00:02:01.531] Server  LOG     [SCRAPE] 🌐 Amazon pays $700m for planned data center site in Virginia’s Prince William County – report - DCD
+[00:02:01.563] Server  LOG     [SCRAPE] 🌐 Virginia data center boom offers glimpse into US artificial intelligence future
+[00:02:01.573] Server  LOG     [SCRAPE] 🌐 Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation
+[00:02:01.585] Server  LOG     [SCRAPE] 🌐 Amazon Buys Northern Virginia Data Center Site for Record $700 Million
+[00:02:05.603] Server  LOG     [EVAL] "Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation" → score=5
+[00:02:05.917] Server  LOG     [EVAL] "Amazon pays $700m for planned data center site in Virginia’s Prince William County – report - DCD" → score=4
+[00:02:06.291] Server  LOG     [EVAL] "Mapped: U.S. States With the Most Data Centers in 2025" → score=4
+[00:02:06.437] Server  LOG     [EVAL] "Amazon Buys Northern Virginia Data Center Site for Record $700 Million" → score=4
+[00:02:06.439] Server  LOG     [PROCESS] ✔ Completed 15/240
+[00:02:06.440] Server  LOG     [PROCESS] ▶ Running tasks 16–20 / 240
+[00:02:06.440] Server  LOG     [SCRAPE] 🌐 Amazon buys Virginia land at the center of heated data center debate, according to report
+[00:02:06.450] Server  LOG     [SCRAPE] 🌐 Northern Virginia: The World’s Data Center Capital
+[00:02:06.454] Server  LOG     [SCRAPE] 🌐 The Hyperscale Revolution Reshaping Data Centre Architecture | Data Centre Magazine
+[00:02:06.458] Server  LOG     [SCRAPE] 🌐 Amazon: Lake Anna Bldg 5 Data Center
+[00:02:06.465] Server  LOG     [SCRAPE] 🌐 Officials detail $4B AWS data center proposal, infrastructure plans - Wilmington News Journal
+[00:02:10.351] Server  LOG     [EVAL] "The Hyperscale Revolution Reshaping Data Centre Architecture | Data Centre Magazine" → score=5
+[00:02:10.721] Server  LOG     [EVAL] "Amazon buys Virginia land at the center of heated data center debate, according to report" → score=4
+[00:02:10.764] Server  LOG     [EVAL] "Amazon: Lake Anna Bldg 5 Data Center" → score=4
+[00:02:11.023] Server  LOG     [EVAL] "Northern Virginia: The World’s Data Center Capital" → score=5
+[00:02:11.024] Server  LOG     [PROCESS] ✔ Completed 20/240
+[00:02:11.025] Server  LOG     [PROCESS] ▶ Running tasks 21–25 / 240
+[00:02:11.026] Server  LOG     [SCRAPE] 🌐 From data center spas to servers in space: How the energy crunch is reshaping cloud computing
+[00:02:11.051] Server  LOG     [SCRAPE] 🌐 Accelerating Europe’s Digital Future: Microsoft Announces Plans for a New Datacenter Region in West Denmark - Source EMEA
+[00:02:11.071] Server  LOG     [SCRAPE] 🌐 Future-Ready Cloud: Microsoft’s U.S. Infrastructure Investments
+[00:02:11.082] Server  LOG     [SCRAPE] 🌐 2025 in Review: Top 10 Data Centre Companies | Data Centre Magazine
+[00:02:11.090] Server  LOG     [SCRAPE] 🌐 New Data Center Developments: December 2025
+[00:02:14.168] Server  LOG     [EVAL] "Accelerating Europe’s Digital Future: Microsoft Announces Plans for a New Datacenter Region in West Denmark - Source EMEA" → score=5
+[00:02:14.505] Server  LOG     [EVAL] "2025 in Review: Top 10 Data Centre Companies | Data Centre Magazine" → score=4
+[00:02:16.165] Server  LOG     [EVAL] "Future-Ready Cloud: Microsoft’s U.S. Infrastructure Investments" → score=4
+[00:02:16.866] Server  LOG     [EVAL] "New Data Center Developments: December 2025" → score=4
+[00:02:19.518] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:02:19.520] Server  LOG     [PROCESS] ✔ Completed 25/240
+[00:02:19.521] Server  LOG     [PROCESS] ▶ Running tasks 26–30 / 240
+[00:02:19.522] Server  LOG     [SCRAPE] 🌐 Microsoft to launch data center region in Denmark in 2026 - DCD
+[00:02:19.533] Server  LOG     [SCRAPE] 🌐 Microsoft: Espoo Data Center
+[00:02:19.541] Server  LOG     [SCRAPE] 🌐 FinancialContent - The Silicon Fortress: Microsoft’s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War
+[00:02:19.548] Server  LOG     [SCRAPE] 🌐 Microsoft invests US$17.5 billion in India to drive AI diffusion at population scale - Source Asia
+[00:02:19.555] Server  LOG     [SCRAPE] 🌐 Microsoft to launch new cloud region in Atlanta, Georgia, in 2027 - DCD
+[00:02:23.228] Server  LOG     [EVAL] "Microsoft invests US$17.5 billion in India to drive AI diffusion at population scale - Source Asia" → score=5
+[00:02:23.331] Server  LOG     [EVAL] "Microsoft: Espoo Data Center" → score=3
+[00:02:23.851] Server  LOG     [EVAL] "Microsoft to launch new cloud region in Atlanta, Georgia, in 2027 - DCD" → score=4
+[00:02:23.852] Server  LOG     [DB] ⏳ Threshold reached (20)
+[00:02:23.853] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:02:24.200] Server  LOG     [EVAL] "FinancialContent - The Silicon Fortress: Microsoft’s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War" → score=5
+[00:02:24.201] Server  LOG     [DB] ⏳ Threshold reached (21)
+[00:02:24.203] Server  LOG     [DB] 💾 Upserting 21 articles
+[00:02:24.908] Server  LOG     [DB] ✅ Upsert success
+[00:02:25.094] Server  LOG     [DB] ✅ Upsert success
+[00:02:26.449] Server  LOG     [EVAL] "Microsoft to launch data center region in Denmark in 2026 - DCD" → score=4
+[00:02:26.450] Server  LOG     [PROCESS] ✔ Completed 30/240
+[00:02:26.451] Server  LOG     [PROCESS] ▶ Running tasks 31–35 / 240
+[00:02:26.452] Server  LOG     [SCRAPE] 🌐 Microsoft to spend $7.5 billion on AI data centre expansion with pledge to protect Canada’s “digital sovereignty” | BetaKit
+[00:02:26.485] Server  LOG     [SCRAPE] 🌐 Microsoft to double new data center capacity this year - report - DCD
+[00:02:26.546] Server  LOG     [SCRAPE] 🌐 Europe Data Center Construction Market Report 2025-2033: Digital Transformation and Cloud Adoption, Sustainability and Energy Efficiency Initiatives, Demand for Hyperscale and Colocation Facilities - ResearchAndMarkets.com
+[00:02:26.561] Server  LOG     [SCRAPE] 🌐 The Growing Backlash Against Data Center Expansion | OilPrice.com
+[00:02:26.577] Server  LOG     [SCRAPE] 🌐 Microsoft Emerges as 2026 Top Pick: OpenAI Stake Spurs Azure Growth | Windows Forum
+[00:02:29.665] Server  LOG     [EVAL] "Microsoft to spend $7.5 billion on AI data centre expansion with pledge to protect Canada’s “digital sovereignty” | BetaKit" → score=4
+[00:02:31.296] Server  LOG     [EVAL] "Europe Data Center Construction Market Report 2025-2033: Digital Transformation and Cloud Adoption, Sustainability and Energy Efficiency Initiatives, Demand for Hyperscale and Colocation Facilities - ResearchAndMarkets.com" → score=5
+[00:02:31.541] Server  LOG     [EVAL] "The Growing Backlash Against Data Center Expansion | OilPrice.com" → score=4
+[00:02:31.795] Server  LOG     [EVAL] "Microsoft to double new data center capacity this year - report - DCD" → score=5
+[00:02:38.597] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:02:38.598] Server  LOG     [PROCESS] ✔ Completed 35/240
+[00:02:38.599] Server  LOG     [PROCESS] ▶ Running tasks 36–40 / 240
+[00:02:38.600] Server  LOG     [SCRAPE] 🌐 Microsoft pulls back from more data center leases in US and Europe, analysts say | Reuters
+[00:02:38.604] Server  LOG     [SCRAPE] 🌐 Microsoft reveals plans for new datacentres in Europe and the Middle East, while expanding its cloud offerings - Microsoft News Centre Europe
+[00:02:38.619] Server  LOG     [SCRAPE] 🌐 Microsoft plans for new cloud region in Atlanta and expands data centre capacity across U.S. - The Tech Capital
+[00:02:38.652] Server  LOG     [SCRAPE] 🌐 Microsoft confirms plans for data center in Grand Rapids, Michigan - DCD
+[00:02:38.679] Server  LOG     [SCRAPE] 🌐 Global AI Data Center Dominance Shifts Away From Big Tech
+[00:02:41.973] Server  LOG     [EVAL] "Microsoft reveals plans for new datacentres in Europe and the Middle East, while expanding its cloud offerings - Microsoft News Centre Europe" → score=4
+[00:02:42.357] Server  LOG     [EVAL] "Microsoft plans for new cloud region in Atlanta and expands data centre capacity across U.S. - The Tech Capital" → score=4
+[00:02:43.349] Server  LOG     [EVAL] "Microsoft confirms plans for data center in Grand Rapids, Michigan - DCD" → score=4
+[00:02:43.349] Server  LOG     [PROCESS] ✔ Completed 40/240
+[00:02:43.350] Server  LOG     [PROCESS] ▶ Running tasks 41–45 / 240
+[00:02:43.351] Server  LOG     [SCRAPE] 🌐 Bitcoin Miner Hut 8 Secures $7B Google-Backed AI Data Center Lease
+[00:02:43.355] Server  LOG     [SCRAPE] 🌐 Keppel DC REIT secures decade-long land lease extension for AI-ready data centres - REITSWEEK
+[00:02:43.365] Server  LOG     [SCRAPE] 🌐 Hut 8 Secures $7B AI Data Center Lease, Spurred by Google Guarantee
+[00:02:43.416] Server  LOG     [SCRAPE] 🌐 Keppel DC REIT : secures 10-year land lease extension for Data Centre Campus in Singapore | MarketScreener
+[00:02:43.431] Server  LOG     [SCRAPE] 🌐 Hut 8 Secures $7B AI Data Center Lease Backed by Google
+[00:02:43.685] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:02:43.994] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:02:46.964] Server  LOG     [EVAL] "Hut 8 Secures $7B AI Data Center Lease Backed by Google" → score=5
+[00:02:48.260] Server  LOG     [EVAL] "Hut 8 Secures $7B AI Data Center Lease, Spurred by Google Guarantee" → score=5
+[00:02:48.260] Server  LOG     [PROCESS] ✔ Completed 45/240
+[00:02:48.261] Server  LOG     [PROCESS] ▶ Running tasks 46–50 / 240
+[00:02:48.262] Server  LOG     [SCRAPE] 🌐 BDx secures $155m to buy Singapore data center freehold - DCD
+[00:02:48.273] Server  LOG     [SCRAPE] 🌐 Hut 8 Secures $7B AI Data Center Lease With Fluidstack: What Investors Need To Know (HUT) | Seeking Alpha
+[00:02:48.303] Server  LOG     [SCRAPE] 🌐 Is Google Building a $6bn Data Centre Campus in India? | Data Centre Magazine
+[00:02:48.310] Server  LOG     [SCRAPE] 🌐 Google launches third data center in Singapore - DCD
+[00:02:48.315] Server  LOG     [SCRAPE] 🌐 Keppel Secures 10-Year Lease Extension for AI-Ready Data Centre Campus in Singapore, Boosting Keppel DC REIT Portfolio – Minichart
+[00:02:51.951] Server  LOG     [EVAL] "Is Google Building a $6bn Data Centre Campus in India? | Data Centre Magazine" → score=5
+[00:02:52.959] Server  LOG     [EVAL] "Google launches third data center in Singapore - DCD" → score=4
+[00:02:52.960] Server  LOG     [EVAL] "BDx secures $155m to buy Singapore data center freehold - DCD" → score=4
+[00:02:54.115] Server  LOG     [EVAL] "Keppel Secures 10-Year Lease Extension for AI-Ready Data Centre Campus in Singapore, Boosting Keppel DC REIT Portfolio – Minichart" → score=4
+[00:02:54.117] Server  LOG     [PROCESS] ✔ Completed 50/240
+[00:02:54.119] Server  LOG     [PROCESS] ▶ Running tasks 51–55 / 240
+[00:02:54.121] Server  LOG     [SCRAPE] 🌐 Google Data Center Locations
+[00:02:54.160] Server  LOG     [SCRAPE] 🌐 Singapore data centre firm DayOne secures up to 1 billion€ for Finland hub and Asia expansion - Scandasia
+[00:02:54.187] Server  LOG     [SCRAPE] 🌐 Google Cloud opens third zone in Singapore - DCD
+[00:02:54.198] Server  LOG     [SCRAPE] 🌐 Google completes expansion of Singapore data center and cloud region - DCD
+[00:02:54.209] Server  LOG     [SCRAPE] 🌐 Hut 8 CEO says $7 billion data center deal with Google is 'first domino to fall'
+[00:02:55.253] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:02:58.213] Server  LOG     [EVAL] "Singapore data centre firm DayOne secures up to 1 billion€ for Finland hub and Asia expansion - Scandasia" → score=4
+[00:02:58.375] Server  LOG     [EVAL] "Google completes expansion of Singapore data center and cloud region - DCD" → score=4
+[00:02:58.788] Server  LOG     [EVAL] "Google Cloud opens third zone in Singapore - DCD" → score=3
+[00:02:59.090] Server  LOG     [EVAL] "Google Data Center Locations" → score=4
+[00:02:59.092] Server  LOG     [PROCESS] ✔ Completed 55/240
+[00:02:59.093] Server  LOG     [PROCESS] ▶ Running tasks 56–60 / 240
+[00:02:59.094] Server  LOG     [SCRAPE] 🌐 Rethinking Data Centre Locations: A Look at Tanjong Malim’s Growing Relevance
+[00:02:59.101] Server  LOG     [SCRAPE] 🌐 TCS launches Google Cloud Gemini Experience Center in Singapore to drive agentic AI-led innovation - TNGlobal
+[00:02:59.162] Server  LOG     [SCRAPE] 🌐 Data Center Developer Secures Long-Term Lease of Cayuga Power Plant | Tompkins County | ithaca.com
+[00:02:59.167] Server  LOG     [SCRAPE] 🌐 Malaysia’s EcoWorld sells and leases land outside Kuala Lumpur to Google for data center - DCD
+[00:02:59.180] Server  LOG     [SCRAPE] 🌐 Why Google Is Backing Hut 8’s 245MW And Potential 2GW AI Data Center Ambition | Yellow.com
+[00:03:02.132] Server  LOG     [EVAL] "Why Google Is Backing Hut 8’s 245MW And Potential 2GW AI Data Center Ambition | Yellow.com" → score=5
+[00:03:02.437] Server  LOG     [EVAL] "TCS launches Google Cloud Gemini Experience Center in Singapore to drive agentic AI-led innovation - TNGlobal" → score=3
+[00:03:03.271] Server  LOG     [EVAL] "Malaysia’s EcoWorld sells and leases land outside Kuala Lumpur to Google for data center - DCD" → score=4
+[00:03:04.315] Server  LOG     [EVAL] "Rethinking Data Centre Locations: A Look at Tanjong Malim’s Growing Relevance" → score=4
+[00:03:04.316] Server  LOG     [DB] ⏳ Threshold reached (20)
+[00:03:04.317] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:03:05.030] Server  LOG     [DB] ✅ Upsert success
+[00:03:05.031] Server  LOG     [PROCESS] ✔ Completed 60/240
+[00:03:05.033] Server  LOG     [PROCESS] ▶ Running tasks 61–65 / 240
+[00:03:05.034] Server  LOG     [SCRAPE] 🌐 Ditch Digital Realty For Equinix (NASDAQ:EQIX) | Seeking Alpha
+[00:03:05.049] Server  LOG     [SCRAPE] 🌐 Equinix plans $835 million data center in west Dallas - Dallas Business Journal
+[00:03:05.063] Server  LOG     [SCRAPE] 🌐 Digital Dallas Campus in Richardson - Digital Realty Data Center
+[00:03:05.067] Server  LOG     [SCRAPE] 🌐 Digital Realty, Equinix Said to Vie for Nordic Data Center Firm - Bloomberg
+[00:03:05.074] Server  LOG     [SCRAPE] 🌐 New Data Center Developments: December 2025
+[00:03:08.328] Server  LOG     [EVAL] "New Data Center Developments: December 2025" → score=4
+[00:03:10.825] Server  LOG     [EVAL] "Digital Dallas Campus in Richardson - Digital Realty Data Center" → score=2
+[00:03:10.826] Server  LOG     [PROCESS] ✔ Completed 65/240
+[00:03:10.827] Server  LOG     [PROCESS] ▶ Running tasks 66–70 / 240
+[00:03:10.827] Server  LOG     [SCRAPE] 🌐 Digital Realty downsizes $100m upgrade to Dallas data center due to “unforeseen circumstances” - DCD
+[00:03:10.832] Server  LOG     [SCRAPE] 🌐 Q3 2025 colo results: Equinix, Digital Realty, American Tower, and Iron Mountain - DCD
+[00:03:10.843] Server  LOG     [SCRAPE] 🌐 Touring the Center of the Internet and an AI Data Center at Equinix Silicon Valley - ServeTheHome
+[00:03:10.852] Server  LOG     [SCRAPE] 🌐 Equinix Data Center Locations, History, and Company Profile
+[00:03:10.859] Server  LOG     [SCRAPE] 🌐 Dallas Data Centers | Premium Colocation Provider and Internet Exchange Point by Equinix
+[00:03:14.209] Server  LOG     [EVAL] "Q3 2025 colo results: Equinix, Digital Realty, American Tower, and Iron Mountain - DCD" → score=4
+[00:03:14.373] Server  LOG     [EVAL] "Digital Realty downsizes $100m upgrade to Dallas data center due to “unforeseen circumstances” - DCD" → score=2
+[00:03:14.916] Server  LOG     [EVAL] "Touring the Center of the Internet and an AI Data Center at Equinix Silicon Valley - ServeTheHome" → score=2
+[00:03:15.313] Server  LOG     [EVAL] "Equinix Data Center Locations, History, and Company Profile" → score=2
+[00:03:15.315] Server  LOG     [PROCESS] ✔ Completed 70/240
+[00:03:15.317] Server  LOG     [PROCESS] ▶ Running tasks 71–75 / 240
+[00:03:15.320] Server  LOG     [SCRAPE] 🌐 New massive data center project proposed in Caldwell County
+[00:03:15.329] Server  LOG     [SCRAPE] 🌐 Equinix And Digital Realty Double Down On Largest Data Center Markets As Others Spread Out
+[00:03:15.340] Server  LOG     [SCRAPE] 🌐 Digital Realty and Equinix intend to acquire Icelandic data center operator atNorth | AKM EN
+[00:03:15.347] Server  LOG     [SCRAPE] 🌐 Equinix Chicago CH1, CH2, & CH4 Data Center
+[00:03:15.351] Server  LOG     [SCRAPE] 🌐 Equinix files to develop another data center campus in Dallas, Texas - DCD
+[00:03:15.655] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:03:15.876] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:03:18.951] Server  LOG     [EVAL] "Equinix And Digital Realty Double Down On Largest Data Center Markets As Others Spread Out" → score=4
+[00:03:18.992] Server  LOG     [EVAL] "Equinix files to develop another data center campus in Dallas, Texas - DCD" → score=3
+[00:03:19.083] Server  LOG     [EVAL] "Equinix Chicago CH1, CH2, & CH4 Data Center" → score=2
+[00:03:19.088] Server  LOG     [PROCESS] ✔ Completed 75/240
+[00:03:19.089] Server  LOG     [PROCESS] ▶ Running tasks 76–80 / 240
+[00:03:19.110] Server  LOG     [SCRAPE] 🌐 News | Equinix gets ready to develop massive Dallas data center
+[00:03:19.120] Server  LOG     [SCRAPE] 🌐 Dallas Lands Another Equinix Giant as Data Centers Surge Nationwide - Propmodo
+[00:03:19.126] Server  LOG     [SCRAPE] 🌐 Digital Realty and Equinix vying to acquire atNorth – report - DCD
+[00:03:19.136] Server  LOG     [SCRAPE] 🌐 2 Data Center REITs to Consider in 2026 | The Motley Fool
+[00:03:19.149] Server  LOG     [SCRAPE] 🌐 Builders of the Boom: Top 10 Data Center Developers - Commercial Property Executive
+[00:03:19.459] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:03:22.948] Server  LOG     [EVAL] "Digital Realty and Equinix vying to acquire atNorth – report - DCD" → score=4
+[00:03:23.491] Server  LOG     [EVAL] "2 Data Center REITs to Consider in 2026 | The Motley Fool" → score=3
+[00:03:24.225] Server  LOG     [EVAL] "Dallas Lands Another Equinix Giant as Data Centers Surge Nationwide - Propmodo" → score=4
+[00:03:24.227] Server  LOG     [PROCESS] ✔ Completed 80/240
+[00:03:24.229] Server  LOG     [PROCESS] ▶ Running tasks 81–85 / 240
+[00:03:24.232] Server  LOG     [SCRAPE] 🌐 Can Verizon's Empower Field Network Infrastructure Upgrade Aid Shares?
+[00:03:24.266] Server  LOG     [SCRAPE] 🌐 Can Verizon's Fios and Fiber Push Deliver Strong Growth Impetus? | Nasdaq
+[00:03:24.277] Server  LOG     [SCRAPE] 🌐 Verizon cracks down on internet customers violating key rule - TheStreet
+[00:03:24.296] Server  LOG     [SCRAPE] 🌐 Three 5G Network Infrastructure Strategies: AT&T vs Verizon vs T-Mobile
+[00:03:24.311] Server  LOG     [SCRAPE] 🌐 Verizon signs tower leasing deal with Array Digital Infrastructure - DCD
+[00:03:24.704] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:03:25.229] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:03:27.792] Server  LOG     [EVAL] "Verizon signs tower leasing deal with Array Digital Infrastructure - DCD" → score=4
+[00:03:36.290] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:03:36.290] Server  LOG     [PROCESS] ✔ Completed 85/240
+[00:03:36.291] Server  LOG     [PROCESS] ▶ Running tasks 86–90 / 240
+[00:03:36.291] Server  LOG     [SCRAPE] 🌐 Does Verizon plan to phase out impressive technology that is not earning its keep? - PhoneArena
+[00:03:36.304] Server  LOG     [SCRAPE] 🌐 Verizon secures agreement with Array Digital Infrastructure to enhance 5G network flexibility, 5G Evolution | TelecomTV
+[00:03:36.311] Server  LOG     [SCRAPE] 🌐 Verizon Gains Access to 4,400 More Towers
+[00:03:36.322] Server  LOG     [SCRAPE] 🌐 Verizon Business intros FWA on a 5G network slice
+[00:03:36.328] Server  LOG     [SCRAPE] 🌐 Verizon Partners with Array Digital Infrastructure to Accelerate 5G Deployment Across U.S.
+[00:03:40.695] Server  LOG     [EVAL] "Verizon secures agreement with Array Digital Infrastructure to enhance 5G network flexibility, 5G Evolution | TelecomTV" → score=4
+[00:03:40.973] Server  LOG     [EVAL] "Verizon Partners with Array Digital Infrastructure to Accelerate 5G Deployment Across U.S." → score=4
+[00:03:41.266] Server  LOG     [EVAL] "Verizon Gains Access to 4,400 More Towers" → score=4
+[00:03:41.270] Server  LOG     [PROCESS] ✔ Completed 90/240
+[00:03:41.271] Server  LOG     [PROCESS] ▶ Running tasks 91–95 / 240
+[00:03:41.272] Server  LOG     [SCRAPE] 🌐 Verizon is degrading service for some 5G customers - PhoneArena
+[00:03:41.288] Server  LOG     [SCRAPE] 🌐 5G Services Market to Reach USD 2,271.25 Billion by 2032 Driven by IoT and Smart Cities - Newstrail
+[00:03:41.299] Server  LOG     [SCRAPE] 🌐 VZ Introduces 5G Network Slice Solution: Will it Boost Prospects?
+[00:03:41.308] Server  LOG     [SCRAPE] 🌐 You might start noticing Verizon’s 5G improve – and this explains why - PhoneArena
+[00:03:41.317] Server  LOG     [SCRAPE] 🌐 Verizon strikes 4,400-tower deal with Array
+[00:03:42.214] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:03:46.942] Server  LOG     [EVAL] "5G Services Market to Reach USD 2,271.25 Billion by 2032 Driven by IoT and Smart Cities - Newstrail" → score=5
+[00:03:46.946] Server  LOG     [PROCESS] ✔ Completed 95/240
+[00:03:46.952] Server  LOG     [PROCESS] ▶ Running tasks 96–100 / 240
+[00:03:46.959] Server  LOG     [SCRAPE] 🌐 I compared Verizon, T-Mobile, and AT&T 5G coverage on a road trip - here's who came out on top | ZDNET
+[00:03:46.970] Server  LOG     [SCRAPE] 🌐 Verizon Home Internet Plans with my Home | Verizon
+[00:03:46.978] Server  LOG     [SCRAPE] 🌐 Network Engineering Services Market Size to Reach USD 118.3 Billion by 2032, Expanding at a 9.41% CAGR - Newstrail
+[00:03:46.986] Server  LOG     [SCRAPE] 🌐 VZ Stock - Verizon Stock Price & News - NYSE: VZ | Morningstar
+[00:03:46.989] Server  LOG     [SCRAPE] 🌐 Small Cell 5G Network Market to Hit USD 176.78 Billion by 2032 Driven by 5G and IoT Growth - Newstrail
+[00:03:47.276] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:03:50.984] Server  LOG     [EVAL] "I compared Verizon, T-Mobile, and AT&T 5G coverage on a road trip - here's who came out on top | ZDNET" → score=1
+[00:03:51.991] Server  LOG     [EVAL] "Network Engineering Services Market Size to Reach USD 118.3 Billion by 2032, Expanding at a 9.41% CAGR - Newstrail" → score=4
+[00:03:52.591] Server  LOG     [EVAL] "Small Cell 5G Network Market to Hit USD 176.78 Billion by 2032 Driven by 5G and IoT Growth - Newstrail" → score=5
+[00:03:53.002] Server  LOG     [EVAL] "VZ Stock - Verizon Stock Price & News - NYSE: VZ | Morningstar" → score=3
+[00:03:53.002] Server  LOG     [PROCESS] ✔ Completed 100/240
+[00:03:53.003] Server  LOG     [PROCESS] ▶ Running tasks 101–105 / 240
+[00:03:53.004] Server  LOG     [SCRAPE] 🌐 Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst | The Motley Fool
+[00:03:53.009] Server  LOG     [SCRAPE] 🌐 Intel aims to find clients and catch TSMC with new chip fab in Arizona
+[00:03:53.021] Server  LOG     [SCRAPE] 🌐 Intel Investors Just Got Great News for 2026 | The Motley Fool
+[00:03:53.025] Server  LOG     [SCRAPE] 🌐 Intel’s Great Turnaround: A 2026 Deep Dive into the National Champion’s Resurgence
+[00:03:53.034] Server  LOG     [SCRAPE] 🌐 Can Intel's Investment-Driven Strategy Regain Its Competitive Edge? | Nasdaq
+[00:03:56.255] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:03:57.205] Server  LOG     [EVAL] "Semiconductor Spending Is Set to Hit $1 Trillion in 2026: 2 Top Stocks to Buy Before That Happens, According to a Wall Street Analyst | The Motley Fool" → score=4
+[00:03:57.467] Server  LOG     [EVAL] "Intel Investors Just Got Great News for 2026 | The Motley Fool" → score=4
+[00:03:58.755] Server  LOG     [EVAL] "Intel’s Great Turnaround: A 2026 Deep Dive into the National Champion’s Resurgence" → score=4
+[00:04:05.045] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:04:05.047] Server  LOG     [PROCESS] ✔ Completed 105/240
+[00:04:05.048] Server  LOG     [PROCESS] ▶ Running tasks 106–110 / 240
+[00:04:05.056] Server  LOG     [SCRAPE] 🌐 Intel stock soared in 2025. But the chipmaker still has a long road ahead.
+[00:04:05.081] Server  LOG     [SCRAPE] 🌐 FinancialContent - Intel’s Great Turnaround: A 2026 Deep Dive into the National Champion’s Resurgence
+[00:04:05.110] Server  LOG     [SCRAPE] 🌐 The Tale of Two Fabs: TSMC Arizona Hits Profitability While Intel Ohio Faces Decade-Long Delay
+[00:04:05.116] Server  LOG     [SCRAPE] 🌐 The AI Engine: How Infrastructure Investment Drove 92% of US Economic Growth in 2025
+[00:04:05.121] Server  LOG     [SCRAPE] 🌐 FinancialContent - The Trillion-Dollar Buildout: Big Tech’s Insatiable AI Appetite Redefines the Semiconductor Landscape
+[00:04:06.032] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:09.498] Server  LOG     [EVAL] "FinancialContent - The Trillion-Dollar Buildout: Big Tech’s Insatiable AI Appetite Redefines the Semiconductor Landscape" → score=5
+[00:04:10.195] Server  LOG     [EVAL] "FinancialContent - Intel’s Great Turnaround: A 2026 Deep Dive into the National Champion’s Resurgence" → score=4
+[00:04:10.203] Server  LOG     [EVAL] "The Tale of Two Fabs: TSMC Arizona Hits Profitability While Intel Ohio Faces Decade-Long Delay" → score=4
+[00:04:10.939] Server  LOG     [EVAL] "The AI Engine: How Infrastructure Investment Drove 92% of US Economic Growth in 2025" → score=5
+[00:04:10.941] Server  LOG     [PROCESS] ✔ Completed 110/240
+[00:04:10.976] Server  LOG     [PROCESS] ▶ Running tasks 111–115 / 240
+[00:04:10.987] Server  LOG     [SCRAPE] 🌐 Inside the Nvidia-Intel Deal: Sleeping With the Enemy | Investing.com
+[00:04:11.157] Server  LOG     [SCRAPE] 🌐 The High-NA EUV Era Begins: Intel Reclaims the Lead with ASML’s $350M Twinscan EXE:5200B
+[00:04:11.238] Server  LOG     [SCRAPE] 🌐 Nvidia takes $5 billion stake in Intel under September agreement | Reuters
+[00:04:11.344] Server  LOG     [SCRAPE] 🌐 Nvidia’s $5 Billion Intel Investment: Securing the Future of American AI and x86 Co-Design
+[00:04:11.381] Server  LOG     [SCRAPE] 🌐 Micron hikes FY26 capex to US$20b to accelerate HBM and US fab output
+[00:04:15.057] Server  LOG     [EVAL] "Nvidia’s $5 Billion Intel Investment: Securing the Future of American AI and x86 Co-Design" → score=4
+[00:04:15.063] Server  LOG     [DB] ⏳ Threshold reached (20)
+[00:04:15.071] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:04:15.151] Server  LOG     [EVAL] "Micron hikes FY26 capex to US$20b to accelerate HBM and US fab output" → score=4
+[00:04:15.151] Server  LOG     [DB] ⏳ Threshold reached (21)
+[00:04:15.152] Server  LOG     [DB] 💾 Upserting 21 articles
+[00:04:15.292] Server  LOG     [EVAL] "Inside the Nvidia-Intel Deal: Sleeping With the Enemy | Investing.com" → score=4
+[00:04:15.293] Server  LOG     [DB] ⏳ Threshold reached (22)
+[00:04:15.294] Server  LOG     [DB] 💾 Upserting 22 articles
+[00:04:15.774] Server  LOG     [DB] ✅ Upsert success
+[00:04:15.869] Server  LOG     [DB] ✅ Upsert success
+[00:04:16.531] Server  LOG     [EVAL] "The High-NA EUV Era Begins: Intel Reclaims the Lead with ASML’s $350M Twinscan EXE:5200B" → score=5
+[00:04:16.552] Server  LOG     [DB] ✅ Upsert success
+[00:04:16.554] Server  LOG     [PROCESS] ✔ Completed 115/240
+[00:04:16.554] Server  LOG     [PROCESS] ▶ Running tasks 116–120 / 240
+[00:04:16.557] Server  LOG     [SCRAPE] 🌐 Sales of chip production equipment to reach $156 billion by 2027 — China, Taiwan, and Korea lead intense demand | Tom's Hardware
+[00:04:16.591] Server  LOG     [SCRAPE] 🌐 The American Silicon Renaissance: A Deep Dive into Intel’s 2025 Turnaround (INTC)
+[00:04:16.598] Server  LOG     [SCRAPE] 🌐 Intel's Strategic Reinvention: A Resurgence in Semiconductor Innovation and AI
+[00:04:16.605] Server  LOG     [SCRAPE] 🌐 The Great Reset: Intel’s High-Stakes Transformation in 2025
+[00:04:16.610] Server  LOG     [SCRAPE] 🌐 Intel’s 18A Node Hits Volume Production at Fab 52 as Yields Stabilize for Panther Lake Ramp
+[00:04:19.120] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:20.501] Server  LOG     [EVAL] "The Great Reset: Intel’s High-Stakes Transformation in 2025" → score=4
+[00:04:20.974] Server  LOG     [EVAL] "The American Silicon Renaissance: A Deep Dive into Intel’s 2025 Turnaround (INTC)" → score=4
+[00:04:23.582] Server  LOG     [EVAL] "Intel’s 18A Node Hits Volume Production at Fab 52 as Yields Stabilize for Panther Lake Ramp" → score=5
+[00:04:23.892] Server  LOG     [EVAL] "Intel's Strategic Reinvention: A Resurgence in Semiconductor Innovation and AI" → score=4
+[00:04:23.894] Server  LOG     [PROCESS] ✔ Completed 120/240
+[00:04:23.895] Server  LOG     [PROCESS] ▶ Running tasks 121–125 / 240
+[00:04:23.896] Server  LOG     [SCRAPE] 🌐 From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms | Reuters
+[00:04:23.902] Server  LOG     [SCRAPE] 🌐 Meta to Buy Manus, an AI Startup With Chinese Roots - Bloomberg
+[00:04:23.912] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg’s Meta buys AI startup for a deal worth more than $2 billion | The Independent
+[00:04:23.944] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg’s Meta is dropping over $2 billion for an AI startup—a rare example of a U.S. tech giant buying a platform founded in China | Fortune
+[00:04:23.954] Server  LOG     [SCRAPE] 🌐 Meta acquires intelligent agent firm Manus, capping year of aggressive AI moves
+[00:04:25.047] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:04:26.730] Server  LOG     [EVAL] "Mark Zuckerberg’s Meta buys AI startup for a deal worth more than $2 billion | The Independent" → score=4
+[00:04:27.344] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:28.095] Server  LOG     [EVAL] "Mark Zuckerberg’s Meta is dropping over $2 billion for an AI startup—a rare example of a U.S. tech giant buying a platform founded in China | Fortune" → score=3
+[00:04:28.097] Server  LOG     [PROCESS] ✔ Completed 125/240
+[00:04:28.099] Server  LOG     [PROCESS] ▶ Running tasks 126–130 / 240
+[00:04:28.100] Server  LOG     [SCRAPE] 🌐 Meta is building a massive data center. Why it's fueling fears of an AI bubble : NPR
+[00:04:28.121] Server  LOG     [SCRAPE] 🌐 Meta claims 'no continuing Chinese ownership interests in Manus AI' after reported $2 billion deal to shore up in AI agent race | Fortune
+[00:04:28.132] Server  LOG     [SCRAPE] 🌐 Texas AI Data Centers Secure Funding Led by Goldman Sachs, Newmark - Bloomberg
+[00:04:28.137] Server  LOG     [SCRAPE] 🌐 An AI super-bull who just backed the Nvidia-Groq deal warns of a data center bust: 'We foresee a significant financial crisis' | Fortune
+[00:04:28.146] Server  LOG     [SCRAPE] 🌐 Meta commits $1.5 billion for AI data center in Texas | Reuters
+[00:04:31.789] Server  LOG     [EVAL] "An AI super-bull who just backed the Nvidia-Groq deal warns of a data center bust: 'We foresee a significant financial crisis' | Fortune" → score=4
+[00:04:31.862] Server  LOG     [EVAL] "Meta claims 'no continuing Chinese ownership interests in Manus AI' after reported $2 billion deal to shore up in AI agent race | Fortune" → score=2
+[00:04:40.108] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:04:40.109] Server  LOG     [PROCESS] ✔ Completed 130/240
+[00:04:40.110] Server  LOG     [PROCESS] ▶ Running tasks 131–135 / 240
+[00:04:40.111] Server  LOG     [SCRAPE] 🌐 Data center deals hit record $61 billion in 2025 amid construction frenzy
+[00:04:40.121] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg's Meta acquires Manus to bolster its AI capabilities - The Times of India
+[00:04:40.177] Server  LOG     [SCRAPE] 🌐 Meta buys startup Manus in latest move to advance its artificial intelligence efforts
+[00:04:40.194] Server  LOG     [SCRAPE] 🌐 AI investor focus flips to data centers as cloud giants pour billions into California facilities
+[00:04:40.199] Server  LOG     [SCRAPE] 🌐 Meta to invest $1.5 billion to build AI data center in El Paso - El Paso Matters
+[00:04:42.486] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:43.279] Server  LOG     [EVAL] "Mark Zuckerberg's Meta acquires Manus to bolster its AI capabilities - The Times of India" → score=3
+[00:04:44.122] Server  LOG     [EVAL] "Meta buys startup Manus in latest move to advance its artificial intelligence efforts" → score=1
+[00:04:44.847] Server  LOG     [EVAL] "AI investor focus flips to data centers as cloud giants pour billions into California facilities" → score=5
+[00:04:45.087] Server  LOG     [EVAL] "Meta to invest $1.5 billion to build AI data center in El Paso - El Paso Matters" → score=5
+[00:04:45.088] Server  LOG     [PROCESS] ✔ Completed 135/240
+[00:04:45.089] Server  LOG     [PROCESS] ▶ Running tasks 136–140 / 240
+[00:04:45.090] Server  LOG     [SCRAPE] 🌐 Meta Buys AI Agent Startup for $2 Billion, Says It Will Cut All Ties With China
+[00:04:45.099] Server  LOG     [SCRAPE] 🌐 Data Center Surge Reaches India as American Tech Giants Invest Billions - The New York Times
+[00:04:45.106] Server  LOG     [SCRAPE] 🌐 How Tech’s Biggest Companies Are Offloading the Risks of the A.I. Boom - The New York Times
+[00:04:45.143] Server  LOG     [SCRAPE] 🌐 OpenAI’s Texas Data Centers Highlight Potential AI Compute Crunch and Tech Debt Surge
+[00:04:45.153] Server  LOG     [SCRAPE] 🌐 Goldman Backs Power for AI Data Centers
+[00:04:45.972] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:47.628] Server  LOG     [EVAL] "Data Center Surge Reaches India as American Tech Giants Invest Billions - The New York Times" → score=5
+[00:04:48.370] Server  LOG     [EVAL] "How Tech’s Biggest Companies Are Offloading the Risks of the A.I. Boom - The New York Times" → score=4
+[00:04:48.877] Server  LOG     [EVAL] "Meta Buys AI Agent Startup for $2 Billion, Says It Will Cut All Ties With China" → score=4
+[00:04:50.452] Server  LOG     [EVAL] "OpenAI’s Texas Data Centers Highlight Potential AI Compute Crunch and Tech Debt Surge" → score=5
+[00:04:50.453] Server  LOG     [PROCESS] ✔ Completed 140/240
+[00:04:50.455] Server  LOG     [PROCESS] ▶ Running tasks 141–145 / 240
+[00:04:50.456] Server  LOG     [SCRAPE] 🌐 Could Vertiv Become the Next Essential AI Infrastructure Stock? | Nasdaq
+[00:04:50.491] Server  LOG     [SCRAPE] 🌐 Vertiv Management & Operations Innovation Day 2025: Mastering liquid cooling services for AI environments
+[00:04:50.506] Server  LOG     [SCRAPE] 🌐 IIT Bombay partners with Vertiv to develop advanced AI data-centre cooling solutions - The HinduBusinessLine
+[00:04:50.516] Server  LOG     [SCRAPE] 🌐 10 Data Center Cooling Companies to Invest In
+[00:04:50.524] Server  LOG     [SCRAPE] 🌐 IIT-Bombay & Vertiv: AI Data Center Cooling: Rediff Moneynews
+[00:04:51.536] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:04:53.319] Server  LOG     [EVAL] "IIT Bombay partners with Vertiv to develop advanced AI data-centre cooling solutions - The HinduBusinessLine" → score=4
+[00:04:54.331] Server  LOG     [EVAL] "IIT-Bombay & Vertiv: AI Data Center Cooling: Rediff Moneynews" → score=4
+[00:04:55.146] Server  LOG     [EVAL] "Vertiv Management & Operations Innovation Day 2025: Mastering liquid cooling services for AI environments" → score=4
+[00:05:02.489] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:05:02.493] Server  LOG     [PROCESS] ✔ Completed 145/240
+[00:05:02.495] Server  LOG     [PROCESS] ▶ Running tasks 146–150 / 240
+[00:05:02.496] Server  LOG     [SCRAPE] 🌐 From vision to readiness: Vertiv collaborates with NVIDIA to advance 800 VDC platform designs to power the next generation of AI factories
+[00:05:02.516] Server  LOG     [SCRAPE] 🌐 Vertiv Stock: A Data Center Infrastructure Play
+[00:05:02.533] Server  LOG     [SCRAPE] 🌐 FinancialContent - The New Architect of Silicon Valley: Vertiv’s Cooling Dominance Propels Stock Toward 2026 Highs
+[00:05:02.543] Server  LOG     [SCRAPE] 🌐 New design demonstrates end-to-end energy-efficient cooling and power | Data Centre Solutions
+[00:05:02.548] Server  LOG     [SCRAPE] 🌐 Innovating Out Loud: Cooling Tomorrow’s Data Centers through Innovation and Collaboration
+[00:05:05.892] Server  LOG     [EVAL] "From vision to readiness: Vertiv collaborates with NVIDIA to advance 800 VDC platform designs to power the next generation of AI factories" → score=4
+[00:05:06.241] Server  LOG     [EVAL] "Innovating Out Loud: Cooling Tomorrow’s Data Centers through Innovation and Collaboration" → score=4
+[00:05:06.782] Server  LOG     [EVAL] "New design demonstrates end-to-end energy-efficient cooling and power | Data Centre Solutions" → score=4
+[00:05:07.058] Server  LOG     [EVAL] "FinancialContent - The New Architect of Silicon Valley: Vertiv’s Cooling Dominance Propels Stock Toward 2026 Highs" → score=5
+[00:05:07.060] Server  LOG     [PROCESS] ✔ Completed 150/240
+[00:05:07.061] Server  LOG     [PROCESS] ▶ Running tasks 151–155 / 240
+[00:05:07.062] Server  LOG     [SCRAPE] 🌐 Zacks Investment Ideas feature highlights: Nvidia, Broadcom, Vertiv and Alphabet | Nasdaq
+[00:05:07.071] Server  LOG     [SCRAPE] 🌐 Liquid and Immersion Cooling Options for Data Centers
+[00:05:07.075] Server  LOG     [SCRAPE] 🌐 Designing AI data centers for fast-moving demands: Insights from off-grid and regional operators
+[00:05:07.078] Server  LOG     [SCRAPE] 🌐 Data center stocks slide into 2026 as xAI expansion keeps Nvidia, Dell, Super Micro in focus
+[00:05:07.085] Server  LOG     [SCRAPE] 🌐 Delivering Flexibility at Gigawatt-Scale: Vertiv Announces Rapidly Deployed, System-Level Reference Architectures for the NVIDIA Omniverse DSX Blueprint
+[00:05:10.109] Server  LOG     [EVAL] "Liquid and Immersion Cooling Options for Data Centers" → score=4
+[00:05:10.110] Server  LOG     [DB] ⏳ Threshold reached (20)
+[00:05:10.110] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:05:10.629] Server  LOG     [DB] ✅ Upsert success
+[00:05:10.891] Server  LOG     [EVAL] "Delivering Flexibility at Gigawatt-Scale: Vertiv Announces Rapidly Deployed, System-Level Reference Architectures for the NVIDIA Omniverse DSX Blueprint" → score=3
+[00:05:11.159] Server  LOG     [EVAL] "Designing AI data centers for fast-moving demands: Insights from off-grid and regional operators" → score=4
+[00:05:11.503] Server  LOG     [EVAL] "Data center stocks slide into 2026 as xAI expansion keeps Nvidia, Dell, Super Micro in focus" → score=3
+[00:05:19.085] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:05:19.086] Server  LOG     [PROCESS] ✔ Completed 155/240
+[00:05:19.088] Server  LOG     [PROCESS] ▶ Running tasks 156–160 / 240
+[00:05:19.089] Server  LOG     [SCRAPE] 🌐 NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin | NVIDIA Blog
+[00:05:19.093] Server  LOG     [SCRAPE] 🌐 Vertiv (VRT): Reviewing Valuation as AI Data Center Backlog, Orders and Liquid Cooling Demand Accelerate
+[00:05:19.097] Server  LOG     [SCRAPE] 🌐 From Power Grids to Data Centers: The Overlooked Winners in the AI Gold Rush | The Motley Fool
+[00:05:19.126] Server  LOG     [SCRAPE] 🌐 Vertiv accelerates AI infrastructure evolution in alignment with NVIDIA 800 VDC power architecture announcement
+[00:05:19.131] Server  LOG     [SCRAPE] 🌐 Vertiv’s NVIDIA Partnership Leads to Breakthroughs in Technology that Support AI’s Future
+[00:05:20.008] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:05:22.405] Server  LOG     [EVAL] "NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin | NVIDIA Blog" → score=5
+[00:05:22.908] Server  LOG     [EVAL] "Vertiv’s NVIDIA Partnership Leads to Breakthroughs in Technology that Support AI’s Future" → score=4
+[00:05:23.560] Server  LOG     [EVAL] "Vertiv accelerates AI infrastructure evolution in alignment with NVIDIA 800 VDC power architecture announcement" → score=4
+[00:05:24.473] Server  LOG     [EVAL] "From Power Grids to Data Centers: The Overlooked Winners in the AI Gold Rush | The Motley Fool" → score=4
+[00:05:24.474] Server  LOG     [PROCESS] ✔ Completed 160/240
+[00:05:24.475] Server  LOG     [PROCESS] ▶ Running tasks 161–165 / 240
+[00:05:24.477] Server  LOG     [SCRAPE] 🌐 AT&T touts satellite-based broadband coming in 2026 - SDxCentral
+[00:05:24.487] Server  LOG     [SCRAPE] 🌐 They rely on landlines for emergencies. AT&T's political moves in California could take those away
+[00:05:24.495] Server  LOG     [SCRAPE] 🌐 Exclusive: -AT&T considers cellphone plans subsidized by ads | Reuters
+[00:05:24.504] Server  LOG     [SCRAPE] 🌐 AT&T Fiber Focus: Strategy Shift in Telecom Landscape | VoIP Review
+[00:05:24.508] Server  LOG     [SCRAPE] 🌐 As AT&T plans to end landline service in Illinois, here's why, a looming deadline and more
+[00:05:29.441] Server  LOG     [EVAL] "AT&T Fiber Focus: Strategy Shift in Telecom Landscape | VoIP Review" → score=4
+[00:05:29.613] Server  LOG     [EVAL] "They rely on landlines for emergencies. AT&T's political moves in California could take those away" → score=2
+[00:05:30.469] Server  LOG     [EVAL] "AT&T touts satellite-based broadband coming in 2026 - SDxCentral" → score=3
+[00:05:30.499] Server  LOG     [EVAL] "As AT&T plans to end landline service in Illinois, here's why, a looming deadline and more" → score=2
+[00:05:30.501] Server  LOG     [PROCESS] ✔ Completed 165/240
+[00:05:30.503] Server  LOG     [PROCESS] ▶ Running tasks 166–170 / 240
+[00:05:30.503] Server  LOG     [SCRAPE] 🌐 CORD: The $300 Billion Opportunity at the Network Edge - SDxCentral
+[00:05:30.517] Server  LOG     [SCRAPE] 🌐 AT&T vs Comcast: Which Telecom Stock Should You Bet On?
+[00:05:30.522] Server  LOG     [SCRAPE] 🌐 AT&T says it won’t build fiber home Internet in half of its wireline footprint - Ars Technica
+[00:05:30.526] Server  LOG     [SCRAPE] 🌐 AT&T Stock (NYSE: T) News and Forecasts for Dec. 22, 2025: Analyst Targets Reset as Spectrum and Fiber Catalysts Stay in Focus
+[00:05:30.531] Server  LOG     [SCRAPE] 🌐 AT&T Now Reaches More Than 30 Million Fiber Locations
+[00:05:30.843] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:05:31.287] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:05:33.912] Server  LOG     [EVAL] "CORD: The $300 Billion Opportunity at the Network Edge - SDxCentral" → score=4
+[00:05:34.408] Server  LOG     [EVAL] "AT&T Stock (NYSE: T) News and Forecasts for Dec. 22, 2025: Analyst Targets Reset as Spectrum and Fiber Catalysts Stay in Focus" → score=3
+[00:05:37.150] Server  LOG     [EVAL] "AT&T says it won’t build fiber home Internet in half of its wireline footprint - Ars Technica" → score=3
+[00:05:37.150] Server  LOG     [PROCESS] ✔ Completed 170/240
+[00:05:37.151] Server  LOG     [PROCESS] ▶ Running tasks 171–175 / 240
+[00:05:37.151] Server  LOG     [SCRAPE] 🌐 One Telecom Giant Raised Its Dividend for the 19th Year While Its Rival Splurged on a Massive Spectrum Deal - 24/7 Wall St.
+[00:05:37.154] Server  LOG     [SCRAPE] 🌐 AT&T's copper retirement plan plows ahead
+[00:05:37.172] Server  LOG     [SCRAPE] 🌐 CUB Q&A: AT&T letters announce end of landline service in 2027 | Citizens Utility Board
+[00:05:37.176] Server  LOG     [SCRAPE] 🌐 AT&T bumps fiber-passing goal to 50M and creates a landline phone replacement
+[00:05:37.182] Server  LOG     [SCRAPE] 🌐 AT&T commits to ending DEI programs | Reuters
+[00:05:40.651] Server  LOG     [EVAL] "One Telecom Giant Raised Its Dividend for the 19th Year While Its Rival Splurged on a Massive Spectrum Deal - 24/7 Wall St." → score=3
+[00:05:43.172] Server  LOG     [EVAL] "AT&T's copper retirement plan plows ahead" → score=3
+[00:05:46.945] Server  LOG     [EVAL] "CUB Q&A: AT&T letters announce end of landline service in 2027 | Citizens Utility Board" → score=1
+[00:05:46.946] Server  LOG     [PROCESS] ✔ Completed 175/240
+[00:05:46.947] Server  LOG     [PROCESS] ▶ Running tasks 176–180 / 240
+[00:05:46.948] Server  LOG     [SCRAPE] 🌐 AT&T Signs New Lease in Richardson, Plans Workforce Expansion
+[00:05:46.953] Server  LOG     [SCRAPE] 🌐 AT&T Reaffirms 2025 Outlook as Nationwide Fiber Expansion Gains Speed
+[00:05:46.956] Server  LOG     [SCRAPE] 🌐 Upgrading Texas’ Network for More Connectivity - AT&T Connects
+[00:05:46.958] Server  LOG     [SCRAPE] 🌐 AT&T CTO Outlines Plan to Become ‘Lowest Cost’ Data Transport Provider
+[00:05:46.963] Server  LOG     [SCRAPE] 🌐 AT&T to Acquire Lumen’s Mass Markets Fiber Business
+[00:05:47.247] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:05:47.421] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:05:47.548] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:05:52.245] Server  LOG     [EVAL] "AT&T Signs New Lease in Richardson, Plans Workforce Expansion" → score=3
+[00:05:52.246] Server  LOG     [PROCESS] ✔ Completed 180/240
+[00:05:52.246] Server  LOG     [PROCESS] ▶ Running tasks 181–185 / 240
+[00:05:52.247] Server  LOG     [SCRAPE] 🌐 US approves Samsung, SK Hynix chipmaking tool shipments to China for 2026, sources say | Reuters
+[00:05:52.252] Server  LOG     [SCRAPE] 🌐 Samsung reportedly seals land deal, paving way for Yongin semiconductor complex
+[00:05:52.260] Server  LOG     [SCRAPE] 🌐 Samsung Electronics says customers praised competitiveness of HBM4 chip | Reuters
+[00:05:52.282] Server  LOG     [SCRAPE] 🌐 Samsung reportedly explores side-by-side chip packaging for next-gen Exynos
+[00:05:52.302] Server  LOG     [SCRAPE] 🌐 U.S. grants Samsung and SK hynix 2026 licenses for chipmaking tool shipments to China — annual approvals replace dated waiver system | Tom's Hardware
+[00:05:54.914] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:05:55.692] Server  LOG     [EVAL] "Samsung reportedly explores side-by-side chip packaging for next-gen Exynos" → score=2
+[00:05:55.695] Server  LOG     [EVAL] "Samsung reportedly seals land deal, paving way for Yongin semiconductor complex" → score=4
+[00:05:55.696] Server  LOG     [PROCESS] ✔ Completed 185/240
+[00:05:55.697] Server  LOG     [PROCESS] ▶ Running tasks 186–190 / 240
+[00:05:55.700] Server  LOG     [SCRAPE] 🌐 U.S. approves Samsung, SK Hynix chipmaking tool shipments to China for 2026: Reuters
+[00:05:55.711] Server  LOG     [SCRAPE] 🌐 Electronics & Semiconductor Chemicals Market Expands with a CAGR of 7.0% by 2031 | Rising Demand from Chip Manufacturing and Advanced Packaging
+[00:05:55.746] Server  LOG     [SCRAPE] 🌐 Samsung modernizes 30-year-old Austin fab to serve Apple, high-end chip demand
+[00:05:55.754] Server  LOG     [SCRAPE] 🌐 Samsung’s Semiconductor Division Employees To Receive Performance Bonuses Worth Up To Half Their Annual Salaries In Early 2026, More Than Triple The Rate Last Year
+[00:05:55.759] Server  LOG     [SCRAPE] 🌐 [News] Samsung Reportedly Plans 50% HBM Capacity Surge in 2026, Spotlight on HBM4
+[00:05:57.231] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:05:58.439] Server  LOG     [EVAL] "Samsung modernizes 30-year-old Austin fab to serve Apple, high-end chip demand" → score=3
+[00:05:58.732] Server  LOG     [EVAL] "Electronics & Semiconductor Chemicals Market Expands with a CAGR of 7.0% by 2031 | Rising Demand from Chip Manufacturing and Advanced Packaging" → score=3
+[00:05:59.820] Server  LOG     [EVAL] "Samsung’s Semiconductor Division Employees To Receive Performance Bonuses Worth Up To Half Their Annual Salaries In Early 2026, More Than Triple The Rate Last Year" → score=4
+[00:06:01.149] Server  LOG     [EVAL] "[News] Samsung Reportedly Plans 50% HBM Capacity Surge in 2026, Spotlight on HBM4" → score=4
+[00:06:01.150] Server  LOG     [PROCESS] ✔ Completed 190/240
+[00:06:01.150] Server  LOG     [PROCESS] ▶ Running tasks 191–195 / 240
+[00:06:01.151] Server  LOG     [SCRAPE] 🌐 U.S. allows TSMC to import chipmaking equipment to its China fabs — Samsung, SK hynix likewise receive go signal from Commerce Department | Tom's Hardware
+[00:06:01.153] Server  LOG     [SCRAPE] 🌐 [News] Samsung Set to Benefit from TSMC’s ‘N-2’ Rule as AMD, Google Eye U.S. 2nm Production
+[00:06:01.155] Server  LOG     [SCRAPE] 🌐 Samsung rumored to jump to 2nm at Texas fab, signaling US chip competition
+[00:06:01.160] Server  LOG     [SCRAPE] 🌐 Samsung to increase its HBM production capacity drastically amid rising AI demand
+[00:06:01.171] Server  LOG     [SCRAPE] 🌐 Samsung aims for 2026 HBM4 mass production after customer validation
+[00:06:02.285] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:06:04.295] Server  LOG     [EVAL] "[News] Samsung Set to Benefit from TSMC’s ‘N-2’ Rule as AMD, Google Eye U.S. 2nm Production" → score=3
+[00:06:04.971] Server  LOG     [EVAL] "Samsung rumored to jump to 2nm at Texas fab, signaling US chip competition" → score=4
+[00:06:05.210] Server  LOG     [EVAL] "Samsung to increase its HBM production capacity drastically amid rising AI demand" → score=4
+[00:06:05.736] Server  LOG     [EVAL] "Samsung aims for 2026 HBM4 mass production after customer validation" → score=3
+[00:06:05.737] Server  LOG     [PROCESS] ✔ Completed 195/240
+[00:06:05.738] Server  LOG     [PROCESS] ▶ Running tasks 196–200 / 240
+[00:06:05.739] Server  LOG     [SCRAPE] 🌐 Samsung Will Financially Benefit From The DRAM Shortage, But A Semiconductor Expert Believes That This Isn’t Sufficient To Compete With TSMC In The Foundry Business
+[00:06:05.749] Server  LOG     [SCRAPE] 🌐 [News] Samsung, SK hynix Reportedly Plan ~20% HBM3E Price Hike for 2026 as NVIDIA H200, ASIC Demand Rises
+[00:06:05.755] Server  LOG     [SCRAPE] 🌐 Samsung reportedly plans 50% HBM output surge through 2026
+[00:06:05.760] Server  LOG     [SCRAPE] 🌐 Samsung, SK Hynix to beat TSMC in gross profit margin for memory business - KED Global
+[00:06:05.766] Server  LOG     [SCRAPE] 🌐 Samsung ramping up 2nm chip making capacity to fight TSMC - SamMobile
+[00:06:06.136] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:06:08.323] Server  LOG     [EVAL] "[News] Samsung, SK hynix Reportedly Plan ~20% HBM3E Price Hike for 2026 as NVIDIA H200, ASIC Demand Rises" → score=4
+[00:06:08.384] Server  LOG     [EVAL] "Samsung ramping up 2nm chip making capacity to fight TSMC - SamMobile" → score=4
+[00:06:09.111] Server  LOG     [EVAL] "Samsung Will Financially Benefit From The DRAM Shortage, But A Semiconductor Expert Believes That This Isn’t Sufficient To Compete With TSMC In The Foundry Business" → score=3
+[00:06:10.597] Server  LOG     [EVAL] "Samsung reportedly plans 50% HBM output surge through 2026" → score=3
+[00:06:10.599] Server  LOG     [PROCESS] ✔ Completed 200/240
+[00:06:10.601] Server  LOG     [PROCESS] ▶ Running tasks 201–205 / 240
+[00:06:10.605] Server  LOG     [SCRAPE] 🌐 Iberdrola and Microsoft Strengthen Partnership With Two Long-Term PPAs
+[00:06:10.647] Server  LOG     [SCRAPE] 🌐 Telefónica, Global Operators Form (Another) Edge Alliance - SDxCentral
+[00:06:10.706] Server  LOG     [SCRAPE] 🌐 ICT Business | Telefonica Tech Reports Strong IoT Gains in Spain
+[00:06:10.720] Server  LOG     [SCRAPE] 🌐 Telefónica Tech maintains its leadership in the Spanish IoT market with 17 million lines - Telefónica
+[00:06:10.731] Server  LOG     [SCRAPE] 🌐 Edge vs Cloud: The Defining Big Data Power Struggle of 2026
+[00:06:13.597] Server  LOG     [EVAL] "Telefónica Tech maintains its leadership in the Spanish IoT market with 17 million lines - Telefónica" → score=5
+[00:06:14.349] Server  LOG     [EVAL] "Edge vs Cloud: The Defining Big Data Power Struggle of 2026" → score=4
+[00:06:15.012] Server  LOG     [EVAL] "Iberdrola and Microsoft Strengthen Partnership With Two Long-Term PPAs" → score=3
+[00:06:15.391] Server  LOG     [EVAL] "ICT Business | Telefonica Tech Reports Strong IoT Gains in Spain" → score=3
+[00:06:15.511] Server  LOG     [EVAL] "Telefónica, Global Operators Form (Another) Edge Alliance - SDxCentral" → score=3
+[00:06:15.512] Server  LOG     [PROCESS] ✔ Completed 205/240
+[00:06:15.513] Server  LOG     [PROCESS] ▶ Running tasks 206–210 / 240
+[00:06:15.514] Server  LOG     [SCRAPE] 🌐 Telefónica Tech se posiciona líder en el mercado de líneas IoT en España en 2025
+[00:06:15.522] Server  LOG     [SCRAPE] 🌐 What will 2026 hold for telecoms?
+[00:06:15.536] Server  LOG     [SCRAPE] 🌐 Telefonica (TEF) Partners to Install Quantum Computers in Spain
+[00:06:15.540] Server  LOG     [SCRAPE] 🌐 A Guide to Edge Computing Technology in 2025 - SNUC
+[00:06:15.549] Server  LOG     [SCRAPE] 🌐 Telefónica Tech and hiberus seal a strategic agreement for Latin America - Telefónica
+[00:06:18.171] Server  LOG     [EVAL] "Telefónica Tech and hiberus seal a strategic agreement for Latin America - Telefónica" → score=3
+[00:06:19.334] Server  LOG     [EVAL] "A Guide to Edge Computing Technology in 2025 - SNUC" → score=4
+[00:06:20.166] Server  LOG     [EVAL] "Telefónica Tech se posiciona líder en el mercado de líneas IoT en España en 2025" → score=4
+[00:06:20.167] Server  LOG     [PROCESS] ✔ Completed 210/240
+[00:06:20.168] Server  LOG     [PROCESS] ▶ Running tasks 211–215 / 240
+[00:06:20.168] Server  LOG     [SCRAPE] 🌐 Edge Computing Market to Reach USD 245.30 Billion by 2032 with AI-Enabled Edge Solutions - Newstrail
+[00:06:20.173] Server  LOG     [SCRAPE] 🌐 Telefónica signs collective bargaining agreementswith unions until 2030 and exit plans in sevencompanies of the group in Spain - Telefónica
+[00:06:20.181] Server  LOG     [SCRAPE] 🌐 Telecoms in 2026: Edge AI, data sovereignty, and monetisation
+[00:06:20.185] Server  LOG     [SCRAPE] 🌐 Telefonica Strengthens NATO Partnership with R&D Innovations | VoIP Review
+[00:06:20.191] Server  LOG     [SCRAPE] 🌐 News - Quantum Computing Report
+[00:06:20.501] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:06:24.777] Server  LOG     [EVAL] "Telefonica Strengthens NATO Partnership with R&D Innovations | VoIP Review" → score=3
+[00:06:25.310] Server  LOG     [EVAL] "Telefónica signs collective bargaining agreementswith unions until 2030 and exit plans in sevencompanies of the group in Spain - Telefónica" → score=4
+[00:06:25.491] Server  LOG     [EVAL] "Edge Computing Market to Reach USD 245.30 Billion by 2032 with AI-Enabled Edge Solutions - Newstrail" → score=5
+[00:06:25.492] Server  LOG     [DB] ⏳ Threshold reached (20)
+[00:06:25.493] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:06:26.503] Server  LOG     [DB] ✅ Upsert success
+[00:06:26.505] Server  LOG     [PROCESS] ✔ Completed 215/240
+[00:06:26.506] Server  LOG     [PROCESS] ▶ Running tasks 216–220 / 240
+[00:06:26.509] Server  LOG     [SCRAPE] 🌐 EdgeMode secures power supply for 1.5GW Spanish data center platform - DCD
+[00:06:26.517] Server  LOG     [SCRAPE] 🌐 Quantum Leap: IQM, Telefonica team to install quantum computers in Spain - TipRanks.com
+[00:06:26.527] Server  LOG     [SCRAPE] 🌐 Telefónica Tech Advances Organizational Simplification Strategy Through Regional Business Sale
+[00:06:26.535] Server  LOG     [SCRAPE] 🌐 IQM and Telefónica to Deploy Quantum Computers in Spain’s CESGA
+[00:06:26.567] Server  LOG     [SCRAPE] 🌐 Telefónica Edges Closer to a Distributed Telco Cloud
+[00:06:32.005] Server  LOG     [EVAL] "EdgeMode secures power supply for 1.5GW Spanish data center platform - DCD" → score=4
+[00:06:32.051] Server  LOG     [EVAL] "Telefónica Edges Closer to a Distributed Telco Cloud" → score=3
+[00:06:32.254] Server  LOG     [EVAL] "IQM and Telefónica to Deploy Quantum Computers in Spain’s CESGA" → score=3
+[00:06:34.980] Server  LOG     [EVAL] "Telefónica Tech Advances Organizational Simplification Strategy Through Regional Business Sale" → score=2
+[00:06:34.981] Server  LOG     [PROCESS] ✔ Completed 220/240
+[00:06:34.982] Server  LOG     [PROCESS] ▶ Running tasks 221–225 / 240
+[00:06:34.982] Server  LOG     [SCRAPE] 🌐 China's power reforms, global data centre buildout usher in battery boom | Reuters
+[00:06:34.985] Server  LOG     [SCRAPE] 🌐 China Mobile Limited Enters into the Telecommunication Facilities Construction Services Agreement | MarketScreener
+[00:06:34.989] Server  LOG     [SCRAPE] 🌐 How China’s control of battery supply chains is becoming a critical risk for U.S. military power and AI initiatives — reducing reliance will take nearly a decade | Tom's Hardware
+[00:06:34.993] Server  LOG     [SCRAPE] 🌐 Analysis | Supersized data centers are coming. See how they will transform America. - Washington Post
+[00:06:34.999] Server  LOG     [SCRAPE] 🌐 India’s datacentre capacity to reach 9.2GW by 2030: govt report
+[00:06:35.988] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:06:36.069] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:06:39.600] Server  LOG     [EVAL] "India’s datacentre capacity to reach 9.2GW by 2030: govt report" → score=5
+[00:06:47.002] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:06:47.002] Server  LOG     [PROCESS] ✔ Completed 225/240
+[00:06:47.003] Server  LOG     [PROCESS] ▶ Running tasks 226–230 / 240
+[00:06:47.003] Server  LOG     [SCRAPE] 🌐 China plans network to sell surplus computing power in crackdown on data centre glut | Reuters
+[00:06:47.006] Server  LOG     [SCRAPE] 🌐 How Data Centers Redefined Energy and Power in 2025
+[00:06:47.009] Server  LOG     [SCRAPE] 🌐 Data Centers in 2025: When Power Became the Gatekeeper - Area Development
+[00:06:47.012] Server  LOG     [SCRAPE] 🌐 China's 1,240-mile-wide giant computer runs highly reliable operations
+[00:06:47.015] Server  LOG     [SCRAPE] 🌐 China is developing nation-spanning network to sell surplus data center compute power — latency, disparate hardware are key hurdles | Tom's Hardware
+[00:06:48.231] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:06:48.329] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:06:52.009] Server  LOG     [EVAL] "China's 1,240-mile-wide giant computer runs highly reliable operations" → score=2
+[00:06:52.069] Server  LOG     [EVAL] "How Data Centers Redefined Energy and Power in 2025" → score=4
+[00:06:52.072] Server  LOG     [PROCESS] ✔ Completed 230/240
+[00:06:52.074] Server  LOG     [PROCESS] ▶ Running tasks 231–235 / 240
+[00:06:52.075] Server  LOG     [SCRAPE] 🌐 15 Largest Data Centers in the World
+[00:06:52.085] Server  LOG     [SCRAPE] 🌐 Who Has The Biggest Data Center In The World? - SlashGear
+[00:06:52.114] Server  LOG     [SCRAPE] 🌐 2026: The Year Nuclear Power Reclaims Relevance With 15 Reactors, AI Demand, and China’s Expansion • Carbon Credits
+[00:06:52.133] Server  LOG     [SCRAPE] 🌐 2025’s Biggest Data Center Construction Stories: A Year in Review
+[00:06:52.141] Server  LOG     [SCRAPE] 🌐 Chinese government plans data center capacity reseller network amid overbuild concerns - DCD
+[00:06:54.379] Server  LOG     [EVAL] "2025’s Biggest Data Center Construction Stories: A Year in Review" → score=4
+[00:06:54.434] Server  LOG     [EVAL] "Who Has The Biggest Data Center In The World? - SlashGear" → score=2
+[00:06:54.846] Server  LOG     [EVAL] "2026: The Year Nuclear Power Reclaims Relevance With 15 Reactors, AI Demand, and China’s Expansion • Carbon Credits" → score=4
+[00:06:55.374] Server  LOG     [EVAL] "15 Largest Data Centers in the World" → score=2
+[00:06:56.718] Server  LOG     [EVAL] "Chinese government plans data center capacity reseller network amid overbuild concerns - DCD" → score=4
+[00:06:56.719] Server  LOG     [PROCESS] ✔ Completed 235/240
+[00:06:56.720] Server  LOG     [PROCESS] ▶ Running tasks 236–240 / 240
+[00:06:56.720] Server  LOG     [SCRAPE] 🌐 2025 in review: Asia as the hub of the data center boom
+[00:06:56.724] Server  LOG     [SCRAPE] 🌐 Data centres: The new tech stopping chips from overheating
+[00:06:56.727] Server  LOG     [SCRAPE] 🌐 25 Ways Solar and Storage Met Critical Energy Demands in 2025 – SEIA
+[00:06:56.730] Server  LOG     [SCRAPE] 🌐 AI Power Boom Turns China Into Backbone of Global Data Center Buildout – Sri Lanka Guardian
+[00:06:56.735] Server  LOG     [SCRAPE] 🌐 Chip Innovation Will Bridge The Gap For USA Data Center Power
+[00:07:00.040] Server  LOG     [EVAL] "Data centres: The new tech stopping chips from overheating" → score=4
+[00:07:00.055] Server  LOG     [EVAL] "2025 in review: Asia as the hub of the data center boom" → score=4
+[00:07:00.400] Server  LOG     [EVAL] "AI Power Boom Turns China Into Backbone of Global Data Center Buildout – Sri Lanka Guardian" → score=4
+[00:07:00.602] Server  LOG     [EVAL] "25 Ways Solar and Storage Met Critical Energy Demands in 2025 – SEIA" → score=3
+[00:07:08.286] Server  LOG     [EVAL] "Chip Innovation Will Bridge The Gap For USA Data Center Power" → score=4
+[00:07:08.287] Server  LOG     [PROCESS] ✔ Completed 240/240
+[00:07:08.288] Server  LOG     [DB] ⏳ Final flush (10)
+[00:07:08.289] Server  LOG     [DB] 💾 Upserting 10 articles
+[00:07:09.129] Server  LOG     [DB] ✅ Upsert success
+[00:07:09.130] Server  LOG     
+[PROCESS] ✅ DONE
+[00:07:09.130] Server  LOG     [STATS] Total=240, Scraped=161, Evaluated=161, Saved=114, Skipped=126
+[00:07:09.131] Server  LOG     
+[RESEARCH] 🎉 Research completed successfully for company 4
+[00:07:09.462] Browser LOG     Research started for company 4
+[00:49:16.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:39.653] Server  LOG     
+[RESEARCH] 🚀 Starting research for company 4
+[00:49:39.655] Server  LOG     [RESEARCH] 🧩 Generating queries
+[00:49:39.656] Server  LOG     
+[QUERY] ▶ Generating queries for driver: "Global Data Center Capex Cycles" (id=7)
+[00:49:39.657] Server  LOG     
+[QUERY] ▶ Generating queries for driver: "Global Data Center Capex Cycles"
+[00:49:39.657] Server  LOG     [QUERY] Attempt 1/3
+[00:49:47.109] Server  LOG     [QUERY] Generated 12/12 valid queries
+[00:49:47.110] Server  LOG        1. Amazon Web Services announces new hyperscale data center buildout in Northern Virginia.
+[00:49:47.111] Server  LOG        2. Microsoft Azure reveals plans for a major data center expansion in Europe.
+[00:49:47.111] Server  LOG        3. Google Cloud secures long-term lease for new colocation data center in Singapore.
+[00:49:47.112] Server  LOG        4. Equinix partners with Digital Realty for joint data center infrastructure project in Dallas.
+[00:49:47.112] Server  LOG        5. Verizon invests in 5G infrastructure upgrades to enhance data center connectivity nationwide.
+[00:49:47.113] Server  LOG        6. Intel Foundry announces significant capital expenditure for semiconductor fab expansion in Arizona.
+[00:49:47.113] Server  LOG        7. Meta Platforms discloses plans for AI data center infrastructure investment in Texas.
+[00:49:47.113] Server  LOG        8. NVIDIA collaborates with Vertiv on advanced cooling solutions for high-density data centers.
+[00:49:47.114] Server  LOG        9. AT&T upgrades power infrastructure for telecom central offices to support increased data demand.
+[00:49:47.114] Server  LOG        10. Samsung Electronics expands its semiconductor manufacturing capacity to meet rising global demand.
+[00:49:47.115] Server  LOG        11. Telefónica announces new edge computing rollout to enhance data center services in Spain.
+[00:49:47.115] Server  LOG        12. CoreWeave secures funding for GPU cluster deployment to support AI model training initiatives.
+[00:49:47.116] Server  LOG     [QUERY] ✅ Query generation successful for driver "Global Data Center Capex Cycles"
+[00:49:47.116] Server  LOG     [QUERY] ✅ Generated 12/12 valid queries
+[00:49:47.117] Server  LOG     
+[RESEARCH] 🔍 Executing Brave search
+[00:49:47.117] Server  LOG     
+[SEARCH] 🔍 Starting Brave search (recency: 30 days)
+[00:49:47.118] Server  LOG     
+[SEARCH] ▶ Driver: "7"
+[00:49:47.119] Server  LOG     [SEARCH] → Query: Amazon Web Services announces new hyperscale data center buildout in Northern Virginia.
+[00:49:48.845] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:48.845] Server  LOG     [SEARCH] → Query: Microsoft Azure reveals plans for a major data center expansion in Europe.
+[00:49:49.627] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:49.628] Server  LOG     [SEARCH] → Query: Google Cloud secures long-term lease for new colocation data center in Singapore.
+[00:49:50.352] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:50.352] Server  LOG     [SEARCH] → Query: Equinix partners with Digital Realty for joint data center infrastructure project in Dallas.
+[00:49:50.974] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:50.975] Server  LOG     [SEARCH] → Query: Verizon invests in 5G infrastructure upgrades to enhance data center connectivity nationwide.
+[00:49:51.683] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:51.683] Server  LOG     [SEARCH] → Query: Intel Foundry announces significant capital expenditure for semiconductor fab expansion in Arizona.
+[00:49:52.561] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:52.561] Server  LOG     [SEARCH] → Query: Meta Platforms discloses plans for AI data center infrastructure investment in Texas.
+[00:49:53.264] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:53.265] Server  LOG     [SEARCH] → Query: NVIDIA collaborates with Vertiv on advanced cooling solutions for high-density data centers.
+[00:49:53.959] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:53.959] Server  LOG     [SEARCH] → Query: AT&T upgrades power infrastructure for telecom central offices to support increased data demand.
+[00:49:54.690] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:54.691] Server  LOG     [SEARCH] → Query: Samsung Electronics expands its semiconductor manufacturing capacity to meet rising global demand.
+[00:49:55.418] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:55.419] Server  LOG     [SEARCH] → Query: Telefónica announces new edge computing rollout to enhance data center services in Spain.
+[00:49:56.309] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:56.309] Server  LOG     [SEARCH] → Query: CoreWeave secures funding for GPU cluster deployment to support AI model training initiatives.
+[00:49:56.989] Server  LOG     [SEARCH] ← 20 articles returned
+[00:49:56.990] Server  LOG     [SEARCH] ✅ Brave search completed
+[00:49:56.990] Server  LOG     [RESEARCH] ✅ Brave search completed
+[00:49:56.990] Server  LOG     
+[RESEARCH] 🧠 Evaluating and storing articles
+[00:49:56.991] Server  LOG     
+[PROCESS] 🚀 Start for company 4
+[00:49:56.992] Server  LOG     [PROCESS] ⚙️ Scraping 240 articles
+[00:49:56.993] Server  LOG     [SCRAPE] 🌐 VC Warns of AI Data Center Boom Sparking 2027 Financing Crisis
+[00:49:56.997] Server  LOG     [SCRAPE] 🌐 US data centers’ energy use amid the artificial intelligence boom | Pew Research Center
+[00:49:57.000] Server  LOG     [SCRAPE] 🌐 Why more residents are saying 'No' to AI data centers in their backyard
+[00:49:57.004] Server  LOG     [SCRAPE] 🌐 Amazon Data Centers Aren’t Raising Your Electric Bills—They May Be Lowering Them
+[00:49:57.008] Server  LOG     [SCRAPE] 🌐 Data center developer breaks ground on $3B Virginia campus | Construction Dive
+[00:50:09.012] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:50:09.013] Server  LOG     [SCRAPE] 🌐 Virginia's data center construction boom is even bigger than you think. One company is behind most of it.
+[00:50:09.015] Server  LOG     [SCRAPE] 🌐 2025’s Biggest Data Center Construction Stories: A Year in Review
+[00:50:09.018] Server  LOG     [SCRAPE] 🌐 Hyperscalers in 2024: Where Next For the Biggest Data Centers?
+[00:50:09.021] Server  LOG     [SCRAPE] 🌐 $4 billion Amazon data center proposal in Wilmington advances to next stage, residents want pause
+[00:50:09.024] Server  LOG     [SCRAPE] 🌐 New Amazon Data Center Breaks Ground in NoVa | CommercialCafe
+[00:50:10.201] Server  LOG     [SCRAPE] 🌐 Mapped: U.S. States With the Most Data Centers in 2025
+[00:50:10.204] Server  LOG     [SCRAPE] 🌐 Amazon pays $700m for planned data center site in Virginia’s Prince William County – report - DCD
+[00:50:10.206] Server  LOG     [SCRAPE] 🌐 Virginia data center boom offers glimpse into US artificial intelligence future
+[00:50:10.209] Server  LOG     [SCRAPE] 🌐 Amazon Buys Northern Virginia Data Center Site for Record $700 Million
+[00:50:10.211] Server  LOG     [SCRAPE] 🌐 Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation
+[00:50:11.279] Server  LOG     [SCRAPE] 🌐 Amazon buys Virginia land at the center of heated data center debate, according to report
+[00:50:11.282] Server  LOG     [SCRAPE] 🌐 Northern Virginia: The World’s Data Center Capital
+[00:50:11.284] Server  LOG     [SCRAPE] 🌐 The Hyperscale Revolution Reshaping Data Centre Architecture | Data Centre Magazine
+[00:50:11.288] Server  LOG     [SCRAPE] 🌐 Amazon: Lake Anna Bldg 5 Data Center
+[00:50:11.291] Server  LOG     [SCRAPE] 🌐 Officials detail $4B AWS data center proposal, infrastructure plans - Wilmington News Journal
+[00:50:14.600] Server  LOG     [SCRAPE] 🌐 From data center spas to servers in space: How the energy crunch is reshaping cloud computing
+[00:50:14.602] Server  LOG     [SCRAPE] 🌐 Accelerating Europe’s Digital Future: Microsoft Announces Plans for a New Datacenter Region in West Denmark - Source EMEA
+[00:50:14.604] Server  LOG     [SCRAPE] 🌐 Future-Ready Cloud: Microsoft’s U.S. Infrastructure Investments
+[00:50:14.607] Server  LOG     [SCRAPE] 🌐 New Data Center Developments: December 2025
+[00:50:14.610] Server  LOG     [SCRAPE] 🌐 2025 in Review: Top 10 Data Centre Companies | Data Centre Magazine
+[00:50:19.315] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:50:19.315] Server  LOG     [SCRAPE] 🌐 Microsoft to launch data center region in Denmark in 2026 - DCD
+[00:50:19.318] Server  LOG     [SCRAPE] 🌐 FinancialContent - The Silicon Fortress: Microsoft’s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War
+[00:50:19.320] Server  LOG     [SCRAPE] 🌐 Microsoft: Espoo Data Center
+[00:50:19.323] Server  LOG     [SCRAPE] 🌐 Microsoft invests US$17.5 billion in India to drive AI diffusion at population scale - Source Asia
+[00:50:19.328] Server  LOG     [SCRAPE] 🌐 Microsoft to spend $7.5 billion on AI data centre expansion with pledge to protect Canada’s “digital sovereignty” | BetaKit
+[00:50:20.835] Server  LOG     [SCRAPE] 🌐 Microsoft to launch new cloud region in Atlanta, Georgia, in 2027 - DCD
+[00:50:20.837] Server  LOG     [SCRAPE] 🌐 Microsoft to double new data center capacity this year - report - DCD
+[00:50:20.839] Server  LOG     [SCRAPE] 🌐 Europe Data Center Construction Market Report 2025-2033: Digital Transformation and Cloud Adoption, Sustainability and Energy Efficiency Initiatives, Demand for Hyperscale and Colocation Facilities - ResearchAndMarkets.com
+[00:50:20.841] Server  LOG     [SCRAPE] 🌐 The Growing Backlash Against Data Center Expansion | OilPrice.com
+[00:50:20.844] Server  LOG     [SCRAPE] 🌐 Microsoft pulls back from more data center leases in US and Europe, analysts say | Reuters
+[00:50:23.677] Server  LOG     [SCRAPE] 🌐 Microsoft Emerges as 2026 Top Pick: OpenAI Stake Spurs Azure Growth | Windows Forum
+[00:50:23.680] Server  LOG     [SCRAPE] 🌐 Microsoft reveals plans for new datacentres in Europe and the Middle East, while expanding its cloud offerings - Microsoft News Centre Europe
+[00:50:23.681] Server  LOG     [SCRAPE] 🌐 Global AI Data Center Dominance Shifts Away From Big Tech
+[00:50:23.683] Server  LOG     [SCRAPE] 🌐 Microsoft confirms plans for data center in Grand Rapids, Michigan - DCD
+[00:50:23.686] Server  LOG     [SCRAPE] 🌐 Microsoft plans for new cloud region in Atlanta and expands data centre capacity across U.S. - The Tech Capital
+[00:50:24.010] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:35.694] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:50:35.695] Server  LOG     [SCRAPE] 🌐 Top Colocation Providers in Singapore - 2026 Complete Guide
+[00:50:35.697] Server  LOG     [SCRAPE] 🌐 Keppel DC REIT secures decade-long land lease extension for AI-ready data centres - REITSWEEK
+[00:50:35.699] Server  LOG     [SCRAPE] 🌐 Hut 8 signs 245MW capacity deal with Fluidstack as part of multi-gigawatt partnership with Anthropic - DCD
+[00:50:35.703] Server  LOG     [SCRAPE] 🌐 Keppel DC REIT : secures 10-year land lease extension for Data Centre Campus in Singapore | MarketScreener Australia
+[00:50:35.707] Server  LOG     [SCRAPE] 🌐 Google Data Center Locations
+[00:50:36.017] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:36.207] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:38.090] Server  LOG     [SCRAPE] 🌐 Why Google Is Backing Hut 8’s 245MW And Potential 2GW AI Data Center Ambition | Yellow.com
+[00:50:38.097] Server  LOG     [SCRAPE] 🌐 Is Google Building a $6bn Data Centre Campus in India? | Data Centre Magazine
+[00:50:38.105] Server  LOG     [SCRAPE] 🌐 255 Data Center Stats (September-2025)
+[00:50:38.109] Server  LOG     [SCRAPE] 🌐 Google completes expansion of Singapore data center and cloud region - DCD
+[00:50:38.112] Server  LOG     [SCRAPE] 🌐 The Digital Gold Rush: Investment in Data Centres and Related Legal Issues for Investors, Raghib Masrur, Saad Mian, Rishiv Rathore, Tom Lawless
+[00:50:38.663] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:39.746] Server  LOG     [SCRAPE] 🌐 Hyperscale vs. Colocation - Interconnections - The Equinix Blog
+[00:50:39.751] Server  LOG     [SCRAPE] 🌐 How Will Google and NextEra Build GW-Scale AI Data Centres? | Data Centre Magazine
+[00:50:39.753] Server  LOG     [SCRAPE] 🌐 New Data Center Developments: December 2025
+[00:50:39.760] Server  LOG     [SCRAPE] 🌐 Colocation Data Center Singapore: Operators, Costs & Infrastructure
+[00:50:39.763] Server  LOG     [SCRAPE] 🌐 Sydney Data Centre and Colocation Market
+[00:50:40.087] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:43.406] Server  LOG     [SCRAPE] 🌐 Google launches third data center in Singapore - DCD
+[00:50:43.409] Server  LOG     [SCRAPE] 🌐 Google to invest $2 bln in data centre and cloud services in Malaysia | Reuters
+[00:50:43.412] Server  LOG     [SCRAPE] 🌐 Google Cloud opens Singapore region - DCD
+[00:50:43.419] Server  LOG     [SCRAPE] 🌐 Google plans $6bn 1GW data center in India's Andhra Pradesh - report - DCD
+[00:50:43.423] Server  LOG     [SCRAPE] 🌐 Google signs lease agreement for eight-story data center in Navi Mumbai, India - DCD
+[00:50:44.954] Server  LOG     [SCRAPE] 🌐 New Data Center Developments: December 2025
+[00:50:44.962] Server  LOG     [SCRAPE] 🌐 Equinix plans $835 million data center in west Dallas - Dallas Business Journal
+[00:50:44.970] Server  LOG     [SCRAPE] 🌐 Ireland Colocation Data Center Portfolio Report 2025: Detailed Analysis of 37 Existing Data Centers, 22 Upcoming Data Centers and 25 Operators/Investors
+[00:50:44.978] Server  LOG     [SCRAPE] 🌐 Dallas Lands Another Equinix Giant as Data Centers Surge Nationwide - Propmodo
+[00:50:44.983] Server  LOG     [SCRAPE] 🌐 Touring the Center of the Internet and an AI Data Center at Equinix Silicon Valley - ServeTheHome
+[00:50:46.861] Server  LOG     [SCRAPE] 🌐 2 Data Center REITs to Consider in 2026 | The Motley Fool
+[00:50:46.864] Server  LOG     [SCRAPE] 🌐 News | Equinix gets ready to develop massive Dallas data center
+[00:50:46.867] Server  LOG     [SCRAPE] 🌐 Ditch Digital Realty For Equinix (NASDAQ:EQIX) | Seeking Alpha
+[00:50:46.871] Server  LOG     [SCRAPE] 🌐 10 Biggest Data Center Locations in the U.S.
+[00:50:46.877] Server  LOG     [SCRAPE] 🌐 New massive data center project proposed in Caldwell County
+[00:50:47.196] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:47.499] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:48.827] Server  LOG     [SCRAPE] 🌐 From data center spas to servers in space: How the energy crunch is reshaping cloud computing
+[00:50:48.835] Server  LOG     [SCRAPE] 🌐 Equinix signs $15 bln joint venture to build U.S. data center infrastructure | Reuters
+[00:50:48.844] Server  LOG     [SCRAPE] 🌐 Equinix Named a Leader in the IDC MarketScape: Worldwide Datacenter Services Sustainability 2025-2026 Vendor Assessment
+[00:50:48.855] Server  LOG     [SCRAPE] 🌐 Digital Realty: Project Gold Lewisville Data Center
+[00:50:48.861] Server  LOG     [SCRAPE] 🌐 Equinix Data Center Locations, History, and Company Profile
+[00:50:51.591] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:50:51.770] Server  LOG     [SCRAPE] 🌐 Dallas Data Centers | Premium Colocation Provider and Internet Exchange Point by Equinix
+[00:50:51.773] Server  LOG     [SCRAPE] 🌐 Equinix to Invest $835M in New West Dallas Data Center With Completion Date in October 2027
+[00:50:51.776] Server  LOG     [SCRAPE] 🌐 Spain Colocation Data Center Portfolio Analysis Report 2025: Existing & Upcoming White-Floor Space, IT Load Capacity, and Colocation Pricing by Rack Size and kW
+[00:50:51.779] Server  LOG     [SCRAPE] 🌐 Digital Realty downsizes $100m upgrade to Dallas data center due to “unforeseen circumstances” - DCD
+[00:50:51.784] Server  LOG     [SCRAPE] 🌐 Why Everyone in Tech Is Suddenly Talking About Server Housing at Equinix
+[00:50:53.587] Server  LOG     [SCRAPE] 🌐 Can Verizon's Empower Field Network Infrastructure Upgrade Aid Shares?
+[00:50:53.590] Server  LOG     [SCRAPE] 🌐 Can Verizon's Fios and Fiber Push Deliver Strong Growth Impetus? | Nasdaq
+[00:50:53.592] Server  LOG     [SCRAPE] 🌐 Three 5G Network Infrastructure Strategies: AT&T vs Verizon vs T-Mobile
+[00:50:53.595] Server  LOG     [SCRAPE] 🌐 Verizon cracks down on internet customers violating key rule - TheStreet
+[00:50:53.600] Server  LOG     [SCRAPE] 🌐 Verizon signs tower leasing deal with Array Digital Infrastructure - DCD
+[00:50:53.917] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:50:54.407] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:05.595] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:51:05.595] Server  LOG     [SCRAPE] 🌐 Does Verizon plan to phase out impressive technology that is not earning its keep? - PhoneArena
+[00:51:05.598] Server  LOG     [SCRAPE] 🌐 Verizon secures agreement with Array Digital Infrastructure to enhance 5G network flexibility, 5G Evolution | TelecomTV
+[00:51:05.601] Server  LOG     [SCRAPE] 🌐 Verizon Gains Access to 4,400 More Towers
+[00:51:05.604] Server  LOG     [SCRAPE] 🌐 Verizon Business intros FWA on a 5G network slice
+[00:51:05.607] Server  LOG     [SCRAPE] 🌐 Verizon Partners with Array Digital Infrastructure to Accelerate 5G Deployment Across U.S.
+[00:51:07.271] Server  LOG     [SCRAPE] 🌐 Verizon is degrading service for some 5G customers - PhoneArena
+[00:51:07.274] Server  LOG     [SCRAPE] 🌐 VZ Introduces 5G Network Slice Solution: Will it Boost Prospects?
+[00:51:07.277] Server  LOG     [SCRAPE] 🌐 You might start noticing Verizon’s 5G improve – and this explains why - PhoneArena
+[00:51:07.281] Server  LOG     [SCRAPE] 🌐 Verizon strikes 4,400-tower deal with Array
+[00:51:07.284] Server  LOG     [SCRAPE] 🌐 I compared Verizon, T-Mobile, and AT&T 5G coverage on a road trip - here's who came out on top | ZDNET
+[00:51:08.232] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:10.693] Server  LOG     [SCRAPE] 🌐 Verizon Home Internet Plans with my Home | Verizon
+[00:51:10.697] Server  LOG     [SCRAPE] 🌐 5G IoT Market to Reach USD 289.71 Billion by 2033 with Smart City and Industrial Applications - Newstrail
+[00:51:10.699] Server  LOG     [SCRAPE] 🌐 VZ Stock - Verizon Stock Price & News - NYSE: VZ | Morningstar
+[00:51:10.701] Server  LOG     [SCRAPE] 🌐 Verizon to report earnings January 30, 2026
+[00:51:10.704] Server  LOG     [SCRAPE] 🌐 Verizon inks multiyear partnership with tower operator - Broadband Communities
+[00:51:11.024] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:51:13.867] Server  LOG     [SCRAPE] 🌐 Intel's Fab 52 is bigger and better equipped than TSMC's Arizona facilities — Intel's production volume dwarfs TSMC's operations in the U.S. | Tom's Hardware
+[00:51:13.870] Server  LOG     [SCRAPE] 🌐 The Tale of Two Fabs: TSMC Arizona Hits Profitability While Intel Ohio Faces Decade-Long Delay
+[00:51:13.872] Server  LOG     [SCRAPE] 🌐 Intel aims to find clients and catch TSMC with new chip fab in Arizona
+[00:51:13.875] Server  LOG     [SCRAPE] 🌐 FinancialContent - The Semiconductor Supercycle of 2025: Beyond NVIDIA and into the AI Utility Era
+[00:51:13.878] Server  LOG     [SCRAPE] 🌐 Sleeping With the Enemy: Inside the NVIDIA-Intel Deal | Nasdaq
+[00:51:14.857] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:16.349] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:25.891] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:51:25.892] Server  LOG     [SCRAPE] 🌐 Is Intel's Foundry Turnaround Finally Gaining Traction?
+[00:51:25.895] Server  LOG     [SCRAPE] 🌐 Intel Investors Just Got Great News for 2026 | The Motley Fool
+[00:51:25.897] Server  LOG     [SCRAPE] 🌐 US CHIPS Act: The Rise of Arizona’s Mega-Fabs
+[00:51:25.901] Server  LOG     [SCRAPE] 🌐 [News] Intel Fab 52 Reportedly Rivals TSMC Arizona Phase 1 and 2 Combined Capacity on More Advanced 18A
+[00:51:25.904] Server  LOG     [SCRAPE] 🌐 The American Silicon Renaissance: A Deep Dive into Intel’s 2025 Turnaround (INTC)
+[00:51:30.171] Server  LOG     [SCRAPE] 🌐 Intel stock soared in 2025. But the chipmaker still has a long road ahead.
+[00:51:30.174] Server  LOG     [SCRAPE] 🌐 Intel 18A & The European Pivot: Reclaiming the Foundry Crown
+[00:51:30.175] Server  LOG     [SCRAPE] 🌐 Silicon Sovereignty: Apple Taps Intel’s 18A for Future Mac and iPad Chips in Landmark “Made in America” Shift
+[00:51:30.178] Server  LOG     [SCRAPE] 🌐 Fabless vs. Foundry: How Chip Manufacturing Is Evolving (Industry Stats) | PatentPC
+[00:51:30.182] Server  LOG     [SCRAPE] 🌐 Intel displays tech to build extreme multi-chiplet packages 12 times the size of the largest AI processors, beating TSMC's biggest — floorplan the size of a cellphone, armed with HBM5, 14A compute tiles and 18A SRAM | Tom's Hardware
+[00:51:31.176] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:31.466] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:32.291] Server  LOG     [SCRAPE] 🌐 Nvidia’s $5 Billion Intel Investment: Securing the Future of American AI and x86 Co-Design
+[00:51:32.295] Server  LOG     [SCRAPE] 🌐 Inside the Nvidia-Intel Deal: Sleeping With the Enemy | Investing.com
+[00:51:32.298] Server  LOG     [SCRAPE] 🌐 Intel’s 18A Node Hits Volume Production at Fab 52 as Yields Stabilize for Panther Lake Ramp
+[00:51:32.301] Server  LOG     [SCRAPE] 🌐 Semiconductor Foundry Market Size to Reach $231.5 Billion by 2032
+[00:51:32.303] Server  LOG     [SCRAPE] 🌐 TSMC brings its most advanced chipmaking node to the US yet, to begin equipment installation for 3nm months ahead of schedule — Arizona fab slated for production in 2027 | Tom's Hardware
+[00:51:33.278] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:34.623] Server  LOG     [SCRAPE] 🌐 From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms | Reuters
+[00:51:34.627] Server  LOG     [SCRAPE] 🌐 Meta just bought Manus, an AI startup everyone has been talking about | TechCrunch
+[00:51:34.630] Server  LOG     [SCRAPE] 🌐 Meta acquires AI startup with Chinese roots for more than $2 billion - Los Angeles Times
+[00:51:34.633] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg’s Meta is dropping over $2 billion for an AI startup—a rare example of a U.S. tech giant buying a platform founded in China | Fortune
+[00:51:34.638] Server  LOG     [SCRAPE] 🌐 Data center deals hit record $61 billion in 2025 amid construction frenzy
+[00:51:36.309] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:36.352] Server  LOG     [SCRAPE] 🌐 Meta is building a massive data center. Why it's fueling fears of an AI bubble : NPR
+[00:51:36.355] Server  LOG     [SCRAPE] 🌐 Goldman Helps Lead Financing for 5-Gigawatt Texas AI Power Sites
+[00:51:36.357] Server  LOG     [SCRAPE] 🌐 Meta plans $600 billion US spend as AI data centers expand | Reuters
+[00:51:36.359] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg’s Meta buys AI startup for a deal worth more than $2 billion | The Independent
+[00:51:36.362] Server  LOG     [SCRAPE] 🌐 Fortune
+[00:51:48.369] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:51:48.370] Server  LOG     [SCRAPE] 🌐 How Tech’s Biggest Companies Are Offloading the Risks of the A.I. Boom - The New York Times
+[00:51:48.372] Server  LOG     [SCRAPE] 🌐 Meta commits $1.5 billion for AI data center in Texas | Reuters
+[00:51:48.375] Server  LOG     [SCRAPE] 🌐 Texas AI Data Centers Secure Funding Led by Goldman Sachs, Newmark - Bloomberg
+[00:51:48.377] Server  LOG     [SCRAPE] 🌐 Meta claims 'no continuing Chinese ownership interests in Manus AI' after reported $2 billion deal to shore up in AI agent race | Fortune
+[00:51:48.380] Server  LOG     [SCRAPE] 🌐 Google plans $40 billion Texas data center investment amid AI boom | Reuters
+[00:51:49.435] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:51:49.541] Server  LOG     [SCRAPE] 🌐 OpenAI’s Texas Data Centers Highlight Potential AI Compute Crunch and Tech Debt Surge
+[00:51:49.544] Server  LOG     [SCRAPE] 🌐 Q4 2025: The Quarter AI Infrastructure Became State Power
+[00:51:49.546] Server  LOG     [SCRAPE] 🌐 Meta Builds Massive Gigawatt-Sized Data Center in Texas to Power AI Expansion - Bloomberg
+[00:51:49.549] Server  LOG     [SCRAPE] 🌐 Mark Zuckerberg's Meta acquires Manus to bolster its AI capabilities - The Times of India
+[00:51:49.552] Server  LOG     [SCRAPE] 🌐 Goldman Backs Power for AI Data Centers
+[00:51:50.478] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:50.731] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:51:51.615] Server  LOG     [SCRAPE] 🌐 Vertiv Stock: A Data Center Infrastructure Play
+[00:51:51.619] Server  LOG     [SCRAPE] 🌐 Vertiv Management & Operations Innovation Day 2025: Mastering liquid cooling services for AI environments
+[00:51:51.621] Server  LOG     [SCRAPE] 🌐 The Real Money in AI Might Be in Power Cooling and Connectivity | The Motley Fool
+[00:51:51.624] Server  LOG     [SCRAPE] 🌐 Could Vertiv Become the Next Essential AI Infrastructure Stock?
+[00:51:51.628] Server  LOG     [SCRAPE] 🌐 Data Center Liquid Cooling for AI Workloads (2026) · KAD
+[00:51:52.552] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:51:54.123] Server  LOG     [SCRAPE] 🌐 nVent Innovates Cooling Solutions for AI-Driven Data Centers in Minnesota - El-Balad.com
+[00:51:54.126] Server  LOG     [SCRAPE] 🌐 10 Data Center Cooling Companies to Invest In
+[00:51:54.129] Server  LOG     [SCRAPE] 🌐 Vertiv Liquid Cooling: Dominating AI Data Centers in 2025 - EnkiAI
+[00:51:54.134] Server  LOG     [SCRAPE] 🌐 Zacks Investment Ideas feature highlights: Nvidia, Broadcom, Vertiv and Alphabet | Nasdaq
+[00:51:54.140] Server  LOG     [SCRAPE] 🌐 Vertiv High Density Cooling Solutions
+[00:51:54.980] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:06.143] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:52:06.144] Server  LOG     [SCRAPE] 🌐 Innovating Out Loud: Cooling Tomorrow’s Data Centers through Innovation and Collaboration
+[00:52:06.148] Server  LOG     [SCRAPE] 🌐 Vertiv (VRT): Reviewing Valuation as AI Data Center Backlog, Orders and Liquid Cooling Demand Accelerate
+[00:52:06.153] Server  LOG     [SCRAPE] 🌐 Vertiv Stock: Betting on Power and Heat In The AI Era | Trefis
+[00:52:06.158] Server  LOG     [SCRAPE] 🌐 New design demonstrates end-to-end energy-efficient cooling and power | Data Centre Solutions
+[00:52:06.164] Server  LOG     [SCRAPE] 🌐 FinancialContent - The New Architect of Silicon Valley: Vertiv’s Cooling Dominance Propels Stock Toward 2026 Highs
+[00:52:06.932] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:18.173] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:52:18.173] Server  LOG     [SCRAPE] 🌐 IIT Bombay Collaborates With Vertiv to Build AI Data Centre Cooling Solutions - Newsblare
+[00:52:18.176] Server  LOG     [SCRAPE] 🌐 Vertiv Boosts Data Centre Cooling with PurgeRite Acquisition | Data Centre Magazine
+[00:52:18.178] Server  LOG     [SCRAPE] 🌐 Vertiv’s NVIDIA Partnership Leads to Breakthroughs in Technology that Support AI’s Future
+[00:52:18.183] Server  LOG     [SCRAPE] 🌐 From vision to readiness: Vertiv collaborates with NVIDIA to advance 800 VDC platform designs to power the next generation of AI factories
+[00:52:18.188] Server  LOG     [SCRAPE] 🌐 The data center cooling state of play (2025) — Liquid cooling is on the rise, thermal density demands skyrocket in AI data centers, and TSMC leads with direct-to-silicon solutions | Tom's Hardware
+[00:52:20.261] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:21.187] Server  LOG     [SCRAPE] 🌐 ATCON projects increased fibre rollout, data centre investments in 2026
+[00:52:21.190] Server  LOG     [SCRAPE] 🌐 AT&T's Strategic Move into Satellite Connectivity: A Catalyst for Long-Term Growth?
+[00:52:21.192] Server  LOG     [SCRAPE] 🌐 Data Center Power Market Trends: Scaling Energy Infrastructure for Digital Growth
+[00:52:21.195] Server  LOG     [SCRAPE] 🌐 India's Data Centre Boom: $80 Billion Needed by 2030 as AI & Cloud Demand Skyrockets! | Whalesbook
+[00:52:21.198] Server  LOG     [SCRAPE] 🌐 T Expands Into Satellite Connectivity Space: Will it Boost Prospects? - The Globe and Mail
+[00:52:33.198] Server  WARN    [SCRAPER] ⏰ Fetch aborted
+[00:52:33.199] Server  LOG     [SCRAPE] 🌐 Nigeria: Telecom Sector Shows Resilience Amid Tariff Hikes, Infrastructure Push - allAfrica.com
+[00:52:33.202] Server  LOG     [SCRAPE] 🌐 Three 5G Network Infrastructure Strategies: AT&T vs Verizon vs T-Mobile
+[00:52:33.204] Server  LOG     [SCRAPE] 🌐 What will 2026 hold for telecoms?
+[00:52:33.207] Server  LOG     [SCRAPE] 🌐 IoT Telecom Services Market to Reach USD 390.86 Billion by 2032 Driven by Industrial IoT - Newstrail
+[00:52:33.210] Server  LOG     [SCRAPE] 🌐 Looking Ahead to 2026 in Telecom and Internet Infrastructure | Telecom Ramblings
+[00:52:36.716] Server  LOG     [SCRAPE] 🌐 How Data Centers Redefined Energy and Power in 2025
+[00:52:36.719] Server  LOG     [SCRAPE] 🌐 Data Centers in 2025: When Power Became the Gatekeeper - Area Development
+[00:52:36.722] Server  LOG     [SCRAPE] 🌐 AT&T (T) Leads Telecom M&A Activity Amid Industry Shifts
+[00:52:36.725] Server  LOG     [SCRAPE] 🌐 Senators Investigate Role of A.I. Data Centers in Rising Electricity Costs - The New York Times
+[00:52:36.727] Server  LOG     [SCRAPE] 🌐 Nigerian telecom growth projected for 2026, says operator
+[00:52:38.066] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:52:38.171] Server  LOG     [SCRAPE] 🌐 AT&T Inc. Is Quietly Rebuilding the Backbone of U.S. Connectivity
+[00:52:38.173] Server  LOG     [SCRAPE] 🌐 Top 10 telecoms stories of 2025 | Computer Weekly
+[00:52:38.175] Server  LOG     [SCRAPE] 🌐 Accelerating Power Demand from Data Centers Is Poised to Boost New Energy Technologies | Goldman Sachs
+[00:52:38.177] Server  LOG     [SCRAPE] 🌐 China's power reforms, global data centre buildout usher in battery boom | Reuters
+[00:52:38.179] Server  LOG     [SCRAPE] 🌐 How families could get stuck with higher electric bills if the AI data center boom goes bust
+[00:52:42.873] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:42.875] Server  LOG     [SCRAPE] 🌐 Samsung reportedly seals land deal, paving way for Yongin semiconductor complex
+[00:52:42.882] Server  LOG     [SCRAPE] 🌐 Samsung modernizes 30-year-old Austin fab to serve Apple, high-end chip demand
+[00:52:42.891] Server  LOG     [SCRAPE] 🌐 Samsung Electronics says customers praised competitiveness of HBM4 chip | Reuters
+[00:52:42.895] Server  LOG     [SCRAPE] 🌐 US approves Samsung, SK Hynix chipmaking tool shipments to China for 2026, sources say | Reuters
+[00:52:42.899] Server  LOG     [SCRAPE] 🌐 Electronics & Semiconductor Chemicals Market Expands with a CAGR of 7.0% by 2031 | Rising Demand from Chip Manufacturing and Advanced Packaging
+[00:52:43.687] Server  LOG     [SCRAPE] 🌐 U.S. grants Samsung and SK hynix 2026 licenses for chipmaking tool shipments to China — annual approvals replace dated waiver system | Tom's Hardware
+[00:52:43.689] Server  LOG     [SCRAPE] 🌐 U.S. approves Samsung, SK Hynix chipmaking tool shipments to China for 2026: Reuters
+[00:52:43.691] Server  LOG     [SCRAPE] 🌐 Samsung reportedly explores side-by-side chip packaging for next-gen Exynos
+[00:52:43.693] Server  LOG     [SCRAPE] 🌐 Samsung’s Semiconductor Division Employees To Receive Performance Bonuses Worth Up To Half Their Annual Salaries In Early 2026, More Than Triple The Rate Last Year
+[00:52:43.696] Server  LOG     [SCRAPE] 🌐 Memory Chip Market to Reach US$ 302.90 Billion by 2033 at 6.7% CAGR; Asia Pacific Leads with 38% Share - Key Players: Samsung Electronics, SK hynix, Micron Technology
+[00:52:45.882] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:46.349] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:52:46.349] Server  LOG     [SCRAPE] 🌐 Samsung co-CEOs map AI agenda across chips, devices - The Korea Herald
+[00:52:46.352] Server  LOG     [SCRAPE] 🌐 [News] Samsung Reportedly Plans 50% HBM Capacity Surge in 2026, Spotlight on HBM4
+[00:52:46.354] Server  LOG     [SCRAPE] 🌐 Samsung aims for 2026 HBM4 mass production after customer validation
+[00:52:46.357] Server  LOG     [SCRAPE] 🌐 Samsung reportedly plans 50% HBM output surge through 2026
+[00:52:46.360] Server  LOG     [SCRAPE] 🌐 Samsung rumored to jump to 2nm at Texas fab, signaling US chip competition
+[00:52:47.447] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:52:47.734] Server  LOG     [SCRAPE] 🌐 Smartphones and notebook prices could increase as memory lead times extend
+[00:52:47.736] Server  LOG     [SCRAPE] 🌐 Samsung Will Financially Benefit From The DRAM Shortage, But A Semiconductor Expert Believes That This Isn’t Sufficient To Compete With TSMC In The Foundry Business
+[00:52:47.737] Server  LOG     [SCRAPE] 🌐 Samsung raises 2025 bonuses for DS division amid memory boom
+[00:52:47.738] Server  LOG     [SCRAPE] 🌐 Samsung to increase its HBM production capacity drastically amid rising AI demand
+[00:52:47.740] Server  LOG     [SCRAPE] 🌐 IDC - Global Memory Shortage Crisis: Market Analysis and the Potential Impact on the Smartphone and PC Markets in 2026
+[00:52:48.783] Server  LOG     [SCRAPE] 🌐 Telefónica, Global Operators Form (Another) Edge Alliance - SDxCentral
+[00:52:48.786] Server  LOG     [SCRAPE] 🌐 Telefónica’s New Open Source Edge Project Cuts 5G Network Slices Into Strings - SDxCentral
+[00:52:48.790] Server  LOG     [SCRAPE] 🌐 Lenovo Accelerates Telco Transformation with Next-Gen Edge AI Innovations at MWC 2024 - BigDATAwire
+[00:52:48.793] Server  LOG     [SCRAPE] 🌐 ICT Business | Telefonica Tech Reports Strong IoT Gains in Spain
+[00:52:48.798] Server  LOG     [SCRAPE] 🌐 EdgeMode secures power supply for 1.5GW Spanish data center platform - DCD
+[00:52:51.968] Server  LOG     [SCRAPE] 🌐 A Guide to Edge Computing Technology in 2025 - SNUC
+[00:52:51.970] Server  LOG     [SCRAPE] 🌐 Telefónica Tech se posiciona líder en el mercado de líneas IoT en España en 2025
+[00:52:51.972] Server  LOG     [SCRAPE] 🌐 Telefónica Tech maintains its leadership in the Spanish IoT market with 17 million lines - Telefónica
+[00:52:51.975] Server  LOG     [SCRAPE] 🌐 Telefonica (TEF) Partners to Install Quantum Computers in Spain
+[00:52:51.978] Server  LOG     [SCRAPE] 🌐 Edge Computing Market to Reach USD 245.30 Billion by 2032 with AI-Enabled Edge Solutions - Newstrail
+[00:52:52.477] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:52:55.292] Server  LOG     [SCRAPE] 🌐 Mobile Edge Computing Creates ‘Tiny Data Centers’ at the Edge - SDxCentral
+[00:52:55.295] Server  LOG     [SCRAPE] 🌐 Telefónica Edges Closer to a Distributed Telco Cloud
+[00:52:55.298] Server  LOG     [SCRAPE] 🌐 Iberdrola and Microsoft Strengthen Partnership With Two Long-Term PPAs
+[00:52:55.304] Server  LOG     [SCRAPE] 🌐 Microsoft and Iberdrola Power AI with 150 MW Wind PPA in Spain
+[00:52:55.309] Server  LOG     [SCRAPE] 🌐 Spain's CESGA Selects IQM and Telefónica to Deploy Advanced Quantum Computing Infrastructure - Social News XYZ
+[00:52:55.951] Server  ERROR   [SCRAPER] ❌ Failed: "fetch failed"
+[00:52:59.069] Server  LOG     [SCRAPE] 🌐 Telefónica signs collective bargaining agreementswith unions until 2030 and exit plans in sevencompanies of the group in Spain - Telefónica
+[00:52:59.071] Server  LOG     [SCRAPE] 🌐 What will 2026 hold for telecoms?
+[00:52:59.073] Server  LOG     [SCRAPE] 🌐 Telefónica Tech and hiberus seal a strategic agreement for Latin America - Telefónica
+[00:52:59.076] Server  LOG     [SCRAPE] 🌐 Mobile Edge Computing Market is Reaching at a CAGR of 17.93% During the 2025 - 2035 | Powers Industry Expansion
+[00:52:59.081] Server  LOG     [SCRAPE] 🌐 What is Edge Computing? - Telefónica
+[00:53:01.249] Server  LOG     [SCRAPE] 🌐 From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms | Reuters
+[00:53:01.252] Server  LOG     [SCRAPE] 🌐 Is CoreWeave Positioned to Sustain Its AI Infrastructure Momentum Amid Rising Valuation Expectations?
+[00:53:01.254] Server  LOG     [SCRAPE] 🌐 CoreWeave CEO delivers blunt 5-word take on AI debate - TheStreet
+[00:53:01.256] Server  LOG     [SCRAPE] 🌐 CoreWeave Selloff Ignores Agentic AI Compute Floor (NASDAQ:CRWV) | Seeking Alpha
+[00:53:01.259] Server  LOG     [SCRAPE] 🌐 3 Reasons to Sell CoreWeave Stock in 2026 | The Motley Fool
+[00:53:05.680] Server  LOG     [SCRAPE] 🌐 CoreWeave vs. Nebius: Which AI Infrastructure Stock is the Better Buy?
+[00:53:05.683] Server  LOG     [SCRAPE] 🌐 CoreWeave Shares Slide 3.1% as Insider Sales and Data Center Delays Rattle AI Market
+[00:53:05.686] Server  LOG     [SCRAPE] 🌐 Fortune
+[00:53:05.690] Server  LOG     [SCRAPE] 🌐 CoreWeave on the Stock Exchange: AI Hype Meets Hard Reality | Eulerpool
+[00:53:05.698] Server  LOG     [SCRAPE] 🌐 How NVIDIA H100 GPUs on CoreWeave's AI Cloud Platform Delivered a Record-Breaking Graph500 Run | NVIDIA Blog
+[00:53:06.392] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:53:08.695] Server  LOG     [SCRAPE] 🌐 CoreWeave Is A Bold AI Infrastructure Play (NASDAQ:CRWV) | Seeking Alpha
+[00:53:08.698] Server  LOG     [SCRAPE] 🌐 Sparkco
+[00:53:08.701] Server  LOG     [SCRAPE] 🌐 Chipwrecked: Can Nvidia avoid the crash? | The Verge
+[00:53:08.704] Server  LOG     [SCRAPE] 🌐 Meet CoreWeave, the AI industry’s ticking time bomb | The Verge
+[00:53:08.707] Server  LOG     [SCRAPE] 🌐 CoreWeave CEO delivers blunt 5-word take on AI debate
+[00:53:09.451] Server  WARN    [SCRAPER] ⛔ HTML too large, skipping
+[00:53:10.117] Server  LOG     [SCRAPE] 🌐 CoreWeave And Oracle Stocks Plunge As Generative AI Bubble Deflates
+[00:53:10.119] Server  LOG     [SCRAPE] 🌐 Something Ominous Is Happening in the AI Economy - The Atlantic
+[00:53:10.121] Server  LOG     [SCRAPE] 🌐 FinancialContent - CoreWeave Shares Slide 3.1% as Insider Sales and Data Center Delays Rattle AI Market
+[00:53:10.123] Server  LOG     [SCRAPE] 🌐 Analysts See Triple-Digit Revenue Growth in 2026 for These 3 AI Infrastructure Stocks - 24/7 Wall St.
+[00:53:10.127] Server  LOG     [SCRAPE] 🌐 NJEDA and CoreWeave Announce Creation of $20M AI Hub Fund to Support Innovative Startups - NJEDA
+[00:53:11.490] Server  LOG     [PROCESS] ✅ Scraped 161 articles
+[00:53:11.491] Server  LOG     [DEDUP] 🔎 Deduplicating current batch
+[00:53:11.492] Server  LOG     [DEDUP] 🔎 Deduplicating 161 articles
+[00:54:35.324] Server  LOG     [DEDUP] ✅ Reduced 161 → 136
+[00:54:35.327] Server  LOG     [DEDUP] ✅ Reduced 161 → 138
+[00:54:41.748] Server  LOG     [EVAL] "US data centers’ energy use amid the artificial intelligence boom | Pew Research Center" → score=4
+[00:54:42.152] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "US data centers’ energy use amid the artificial intelligence boom | Pew Research Center"
+[00:54:46.015] Server  LOG     [EVAL] "Amazon Data Centers Aren’t Raising Your Electric Bills—They May Be Lowering Them" → score=4
+[00:54:46.401] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon Data Centers Aren’t Raising Your Electric Bills—They May Be Lowering Them"
+[00:54:50.893] Server  LOG     [EVAL] "Data center developer breaks ground on $3B Virginia campus | Construction Dive" → score=4
+[00:54:51.278] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Data center developer breaks ground on $3B Virginia campus | Construction Dive"
+[00:54:53.607] Server  LOG     [EVAL] "VC Warns of AI Data Center Boom Sparking 2027 Financing Crisis" → score=4
+[00:54:54.019] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "VC Warns of AI Data Center Boom Sparking 2027 Financing Crisis"
+[00:54:56.516] Server  LOG     [EVAL] "Virginia's data center construction boom is even bigger than you think. One company is behind most of it." → score=5
+[00:54:57.024] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Virginia's data center construction boom is even bigger than you think. One company is behind most of it."
+[00:54:58.922] Server  LOG     [EVAL] "Hyperscalers in 2024: Where Next For the Biggest Data Centers?" → score=5
+[00:54:59.342] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Hyperscalers in 2024: Where Next For the Biggest Data Centers?"
+[00:55:01.437] Server  LOG     [EVAL] "2025’s Biggest Data Center Construction Stories: A Year in Review" → score=4
+[00:55:01.874] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "2025’s Biggest Data Center Construction Stories: A Year in Review"
+[00:55:03.846] Server  LOG     [EVAL] "$4 billion Amazon data center proposal in Wilmington advances to next stage, residents want pause" → score=4
+[00:55:04.237] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "$4 billion Amazon data center proposal in Wilmington advances to next stage, residents want pause"
+[00:55:06.231] Server  LOG     [EVAL] "Mapped: U.S. States With the Most Data Centers in 2025" → score=4
+[00:55:06.720] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Mapped: U.S. States With the Most Data Centers in 2025"
+[00:55:08.588] Server  LOG     [EVAL] "Amazon pays $700m for planned data center site in Virginia’s Prince William County – report - DCD" → score=4
+[00:55:09.066] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon pays $700m for planned data center site in Virginia’s Prince William County – report - DCD"
+[00:55:11.010] Server  LOG     [EVAL] "Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation" → score=5
+[00:55:11.387] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation"
+[00:55:14.446] Server  LOG     [EVAL] "Amazon Buys Northern Virginia Data Center Site for Record $700 Million" → score=5
+[00:55:14.829] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon Buys Northern Virginia Data Center Site for Record $700 Million"
+[00:55:16.880] Server  LOG     [EVAL] "Amazon buys Virginia land at the center of heated data center debate, according to report" → score=4
+[00:55:17.281] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon buys Virginia land at the center of heated data center debate, according to report"
+[00:55:19.651] Server  LOG     [EVAL] "The Hyperscale Revolution Reshaping Data Centre Architecture | Data Centre Magazine" → score=5
+[00:55:20.051] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "The Hyperscale Revolution Reshaping Data Centre Architecture | Data Centre Magazine"
+[00:55:22.317] Server  LOG     [EVAL] "Amazon: Lake Anna Bldg 5 Data Center" → score=4
+[00:55:22.760] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Amazon: Lake Anna Bldg 5 Data Center"
+[00:55:25.589] Server  LOG     [EVAL] "Northern Virginia: The World’s Data Center Capital" → score=5
+[00:55:26.000] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Northern Virginia: The World’s Data Center Capital"
+[00:55:29.164] Server  LOG     [EVAL] "New Data Center Developments: December 2025" → score=4
+[00:55:29.547] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "New Data Center Developments: December 2025"
+[00:55:31.874] Server  LOG     [EVAL] "2025 in Review: Top 10 Data Centre Companies | Data Centre Magazine" → score=4
+[00:55:32.350] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "2025 in Review: Top 10 Data Centre Companies | Data Centre Magazine"
+[00:55:34.331] Server  LOG     [EVAL] "Accelerating Europe’s Digital Future: Microsoft Announces Plans for a New Datacenter Region in West Denmark - Source EMEA" → score=5
+[00:55:34.757] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Accelerating Europe’s Digital Future: Microsoft Announces Plans for a New Datacenter Region in West Denmark - Source EMEA"
+[00:55:37.221] Server  LOG     [EVAL] "Future-Ready Cloud: Microsoft’s U.S. Infrastructure Investments" → score=4
+[00:55:37.696] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Future-Ready Cloud: Microsoft’s U.S. Infrastructure Investments"
+[00:55:39.855] Server  LOG     [EVAL] "Microsoft to spend $7.5 billion on AI data centre expansion with pledge to protect Canada’s “digital sovereignty” | BetaKit" → score=4
+[00:55:40.239] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft to spend $7.5 billion on AI data centre expansion with pledge to protect Canada’s “digital sovereignty” | BetaKit"
+[00:55:43.738] Server  LOG     [EVAL] "Microsoft invests US$17.5 billion in India to drive AI diffusion at population scale - Source Asia" → score=5
+[00:55:44.119] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft invests US$17.5 billion in India to drive AI diffusion at population scale - Source Asia"
+[00:55:46.457] Server  LOG     [EVAL] "Microsoft to launch data center region in Denmark in 2026 - DCD" → score=4
+[00:55:46.846] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft to launch data center region in Denmark in 2026 - DCD"
+[00:55:48.609] Server  LOG     [EVAL] "Microsoft: Espoo Data Center" → score=3
+[00:55:51.314] Server  LOG     [EVAL] "FinancialContent - The Silicon Fortress: Microsoft’s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War" → score=5
+[00:55:51.694] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "FinancialContent - The Silicon Fortress: Microsoft’s Azure AI Expansion Solidifies Its Dominance in the Enterprise Cloud War"
+[00:55:53.819] Server  LOG     [EVAL] "Microsoft to double new data center capacity this year - report - DCD" → score=5
+[00:55:54.175] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft to double new data center capacity this year - report - DCD"
+[00:55:56.371] Server  LOG     [EVAL] "Europe Data Center Construction Market Report 2025-2033: Digital Transformation and Cloud Adoption, Sustainability and Energy Efficiency Initiatives, Demand for Hyperscale and Colocation Facilities - ResearchAndMarkets.com" → score=5
+[00:55:57.207] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Europe Data Center Construction Market Report 2025-2033: Digital Transformation and Cloud Adoption, Sustainability and Energy Efficiency Initiatives, Demand for Hyperscale and Colocation Facilities - ResearchAndMarkets.com"
+[00:55:58.938] Server  LOG     [EVAL] "The Growing Backlash Against Data Center Expansion | OilPrice.com" → score=4
+[00:55:59.327] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "The Growing Backlash Against Data Center Expansion | OilPrice.com"
+[00:56:01.709] Server  LOG     [EVAL] "Microsoft reveals plans for new datacentres in Europe and the Middle East, while expanding its cloud offerings - Microsoft News Centre Europe" → score=4
+[00:56:02.762] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft reveals plans for new datacentres in Europe and the Middle East, while expanding its cloud offerings - Microsoft News Centre Europe"
+[00:56:04.660] Server  LOG     [EVAL] "Microsoft confirms plans for data center in Grand Rapids, Michigan - DCD" → score=4
+[00:56:05.058] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft confirms plans for data center in Grand Rapids, Michigan - DCD"
+[00:56:07.383] Server  LOG     [EVAL] "Microsoft plans for new cloud region in Atlanta and expands data centre capacity across U.S. - The Tech Capital" → score=4
+[00:56:08.163] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Microsoft plans for new cloud region in Atlanta and expands data centre capacity across U.S. - The Tech Capital"
+[00:56:11.058] Server  LOG     [EVAL] "Google Data Center Locations" → score=4
+[00:56:11.816] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Google Data Center Locations"
+[00:56:14.043] Server  LOG     [EVAL] "Top Colocation Providers in Singapore - 2026 Complete Guide" → score=1
+[00:56:19.028] Server  LOG     [EVAL] "Hut 8 signs 245MW capacity deal with Fluidstack as part of multi-gigawatt partnership with Anthropic - DCD" → score=5
+[00:56:21.632] Server  LOG     [EVAL] "Google completes expansion of Singapore data center and cloud region - DCD" → score=4
+[00:56:22.044] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Google completes expansion of Singapore data center and cloud region - DCD"
+[00:56:24.043] Server  LOG     [EVAL] "Why Google Is Backing Hut 8’s 245MW And Potential 2GW AI Data Center Ambition | Yellow.com" → score=4
+[00:56:24.455] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Why Google Is Backing Hut 8’s 245MW And Potential 2GW AI Data Center Ambition | Yellow.com"
+[00:56:27.282] Server  LOG     [EVAL] "Is Google Building a $6bn Data Centre Campus in India? | Data Centre Magazine" → score=5
+[00:56:27.674] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Is Google Building a $6bn Data Centre Campus in India? | Data Centre Magazine"
+[00:56:29.833] Server  LOG     [EVAL] "255 Data Center Stats (September-2025)" → score=5
+[00:56:32.639] Server  LOG     [EVAL] "New Data Center Developments: December 2025" → score=4
+[00:56:33.101] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "New Data Center Developments: December 2025"
+[00:56:35.061] Server  LOG     [EVAL] "How Will Google and NextEra Build GW-Scale AI Data Centres? | Data Centre Magazine" → score=4
+[00:56:37.389] Server  LOG     [EVAL] "Sydney Data Centre and Colocation Market" → score=3
+[00:56:40.090] Server  LOG     [EVAL] "Colocation Data Center Singapore: Operators, Costs & Infrastructure" → score=4
+[00:56:43.139] Server  LOG     [EVAL] "Google Cloud opens Singapore region - DCD" → score=4
+[00:56:50.638] Server  LOG     [EVAL] "Google signs lease agreement for eight-story data center in Navi Mumbai, India - DCD" → score=4
+[00:56:53.458] Server  LOG     [EVAL] "New Data Center Developments: December 2025" → score=4
+[00:56:53.811] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "New Data Center Developments: December 2025"
+[00:56:56.512] Server  LOG     [EVAL] "Ireland Colocation Data Center Portfolio Report 2025: Detailed Analysis of 37 Existing Data Centers, 22 Upcoming Data Centers and 25 Operators/Investors" → score=4
+[00:56:59.997] Server  LOG     [EVAL] "Dallas Lands Another Equinix Giant as Data Centers Surge Nationwide - Propmodo" → score=4
+[00:57:00.512] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Dallas Lands Another Equinix Giant as Data Centers Surge Nationwide - Propmodo"
+[00:57:02.143] Server  LOG     [EVAL] "Touring the Center of the Internet and an AI Data Center at Equinix Silicon Valley - ServeTheHome" → score=2
+[00:57:04.047] Server  LOG     [EVAL] "10 Biggest Data Center Locations in the U.S." → score=4
+[00:57:06.659] Server  LOG     [EVAL] "2 Data Center REITs to Consider in 2026 | The Motley Fool" → score=4
+[00:57:08.801] Server  LOG     [EVAL] "Equinix Named a Leader in the IDC MarketScape: Worldwide Datacenter Services Sustainability 2025-2026 Vendor Assessment" → score=1
+[00:57:10.524] Server  LOG     [EVAL] "Digital Realty: Project Gold Lewisville Data Center" → score=2
+[00:57:12.325] Server  LOG     [EVAL] "Equinix Data Center Locations, History, and Company Profile" → score=2
+[00:57:13.977] Server  LOG     [EVAL] "Digital Realty downsizes $100m upgrade to Dallas data center due to “unforeseen circumstances” - DCD" → score=2
+[00:57:16.751] Server  LOG     [EVAL] "Equinix to Invest $835M in New West Dallas Data Center With Completion Date in October 2027" → score=4
+[00:57:19.317] Server  LOG     [EVAL] "Why Everyone in Tech Is Suddenly Talking About Server Housing at Equinix" → score=4
+[00:57:22.245] Server  LOG     [EVAL] "Verizon signs tower leasing deal with Array Digital Infrastructure - DCD" → score=4
+[00:57:22.882] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Verizon signs tower leasing deal with Array Digital Infrastructure - DCD"
+[00:57:25.434] Server  LOG     [EVAL] "Verizon secures agreement with Array Digital Infrastructure to enhance 5G network flexibility, 5G Evolution | TelecomTV" → score=4
+[00:57:25.939] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Verizon secures agreement with Array Digital Infrastructure to enhance 5G network flexibility, 5G Evolution | TelecomTV"
+[00:57:27.836] Server  LOG     [EVAL] "Verizon Gains Access to 4,400 More Towers" → score=4
+[00:57:28.268] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Verizon Gains Access to 4,400 More Towers"
+[00:57:29.672] Server  LOG     [EVAL] "I compared Verizon, T-Mobile, and AT&T 5G coverage on a road trip - here's who came out on top | ZDNET" → score=1
+[00:57:31.493] Server  LOG     [EVAL] "Verizon inks multiyear partnership with tower operator - Broadband Communities" → score=4
+[00:57:34.013] Server  LOG     [EVAL] "Verizon to report earnings January 30, 2026" → score=2
+[00:57:35.971] Server  LOG     [EVAL] "5G IoT Market to Reach USD 289.71 Billion by 2033 with Smart City and Industrial Applications - Newstrail" → score=4
+[00:57:36.367] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "5G IoT Market to Reach USD 289.71 Billion by 2033 with Smart City and Industrial Applications - Newstrail"
+[00:57:38.223] Server  LOG     [EVAL] "VZ Stock - Verizon Stock Price & News - NYSE: VZ | Morningstar" → score=3
+[00:57:40.909] Server  LOG     [EVAL] "FinancialContent - The Semiconductor Supercycle of 2025: Beyond NVIDIA and into the AI Utility Era" → score=5
+[00:57:43.080] Server  LOG     [EVAL] "The Tale of Two Fabs: TSMC Arizona Hits Profitability While Intel Ohio Faces Decade-Long Delay" → score=4
+[00:57:43.633] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "The Tale of Two Fabs: TSMC Arizona Hits Profitability While Intel Ohio Faces Decade-Long Delay"
+[00:57:46.043] Server  LOG     [EVAL] "[News] Intel Fab 52 Reportedly Rivals TSMC Arizona Phase 1 and 2 Combined Capacity on More Advanced 18A" → score=2
+[00:57:48.776] Server  LOG     [EVAL] "Intel Investors Just Got Great News for 2026 | The Motley Fool" → score=4
+[00:57:49.152] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Intel Investors Just Got Great News for 2026 | The Motley Fool"
+[00:57:52.380] Server  LOG     [EVAL] "Is Intel's Foundry Turnaround Finally Gaining Traction?" → score=3
+[00:57:55.198] Server  LOG     [EVAL] "Fabless vs. Foundry: How Chip Manufacturing Is Evolving (Industry Stats) | PatentPC" → score=4
+[00:57:57.675] Server  LOG     [EVAL] "Silicon Sovereignty: Apple Taps Intel’s 18A for Future Mac and iPad Chips in Landmark “Made in America” Shift" → score=4
+[00:58:00.329] Server  LOG     [EVAL] "Inside the Nvidia-Intel Deal: Sleeping With the Enemy | Investing.com" → score=4
+[00:58:00.739] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Inside the Nvidia-Intel Deal: Sleeping With the Enemy | Investing.com"
+[00:58:03.156] Server  LOG     [EVAL] "Semiconductor Foundry Market Size to Reach $231.5 Billion by 2032" → score=4
+[00:58:06.122] Server  LOG     [EVAL] "Intel’s 18A Node Hits Volume Production at Fab 52 as Yields Stabilize for Panther Lake Ramp" → score=5
+[00:58:06.477] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Intel’s 18A Node Hits Volume Production at Fab 52 as Yields Stabilize for Panther Lake Ramp"
+[00:58:09.017] Server  LOG     [EVAL] "Nvidia’s $5 Billion Intel Investment: Securing the Future of American AI and x86 Co-Design" → score=5
+[00:58:09.446] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Nvidia’s $5 Billion Intel Investment: Securing the Future of American AI and x86 Co-Design"
+[00:58:11.743] Server  LOG     [EVAL] "Meta just bought Manus, an AI startup everyone has been talking about | TechCrunch" → score=3
+[00:58:13.963] Server  LOG     [EVAL] "Mark Zuckerberg’s Meta is dropping over $2 billion for an AI startup—a rare example of a U.S. tech giant buying a platform founded in China | Fortune" → score=4
+[00:58:16.440] Server  LOG     [EVAL] "Meta acquires AI startup with Chinese roots for more than $2 billion - Los Angeles Times" → score=4
+[00:58:16.903] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Meta acquires AI startup with Chinese roots for more than $2 billion - Los Angeles Times"
+[00:58:19.635] Server  LOG     [EVAL] "Fortune" → score=4
+[00:58:20.120] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Fortune"
+[00:58:22.043] Server  LOG     [EVAL] "Goldman Helps Lead Financing for 5-Gigawatt Texas AI Power Sites" → score=4
+[00:58:25.683] Server  LOG     [EVAL] "How Tech’s Biggest Companies Are Offloading the Risks of the A.I. Boom - The New York Times" → score=4
+[00:58:26.454] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "How Tech’s Biggest Companies Are Offloading the Risks of the A.I. Boom - The New York Times"
+[00:58:28.374] Server  LOG     [EVAL] "Mark Zuckerberg's Meta acquires Manus to bolster its AI capabilities - The Times of India" → score=3
+[00:58:30.965] Server  LOG     [EVAL] "OpenAI’s Texas Data Centers Highlight Potential AI Compute Crunch and Tech Debt Surge" → score=5
+[00:58:31.329] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "OpenAI’s Texas Data Centers Highlight Potential AI Compute Crunch and Tech Debt Surge"
+[00:58:34.024] Server  LOG     [EVAL] "Vertiv Management & Operations Innovation Day 2025: Mastering liquid cooling services for AI environments" → score=4
+[00:58:34.391] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Vertiv Management & Operations Innovation Day 2025: Mastering liquid cooling services for AI environments"
+[00:58:36.360] Server  LOG     [EVAL] "Data Center Liquid Cooling for AI Workloads (2026) · KAD" → score=5
+[00:58:39.803] Server  LOG     [EVAL] "The Real Money in AI Might Be in Power Cooling and Connectivity | The Motley Fool" → score=5
+[00:58:40.345] Server  LOG     [DB] 💾 Upserting 20 articles
+[00:58:41.466] Server  LOG     [DB] ✅ Upsert success
+[00:58:44.112] Server  LOG     [EVAL] "nVent Innovates Cooling Solutions for AI-Driven Data Centers in Minnesota - El-Balad.com" → score=4
+[00:58:46.812] Server  LOG     [EVAL] "Vertiv High Density Cooling Solutions" → score=1
+[00:58:49.221] Server  LOG     [EVAL] "Vertiv Liquid Cooling: Dominating AI Data Centers in 2025 - EnkiAI" → score=5
+[00:58:51.848] Server  LOG     [EVAL] "Innovating Out Loud: Cooling Tomorrow’s Data Centers through Innovation and Collaboration" → score=4
+[00:58:52.306] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Innovating Out Loud: Cooling Tomorrow’s Data Centers through Innovation and Collaboration"
+[00:58:56.957] Server  LOG     [EVAL] "FinancialContent - The New Architect of Silicon Valley: Vertiv’s Cooling Dominance Propels Stock Toward 2026 Highs" → score=5
+[00:58:57.367] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "FinancialContent - The New Architect of Silicon Valley: Vertiv’s Cooling Dominance Propels Stock Toward 2026 Highs"
+[00:59:00.474] Server  LOG     [EVAL] "Vertiv Stock: Betting on Power and Heat In The AI Era | Trefis" → score=5
+[00:59:02.836] Server  LOG     [EVAL] "IIT Bombay Collaborates With Vertiv to Build AI Data Centre Cooling Solutions - Newsblare" → score=4
+[00:59:05.199] Server  LOG     [EVAL] "From vision to readiness: Vertiv collaborates with NVIDIA to advance 800 VDC platform designs to power the next generation of AI factories" → score=4
+[00:59:05.812] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "From vision to readiness: Vertiv collaborates with NVIDIA to advance 800 VDC platform designs to power the next generation of AI factories"
+[00:59:07.799] Server  LOG     [EVAL] "Vertiv Boosts Data Centre Cooling with PurgeRite Acquisition | Data Centre Magazine" → score=5
+[00:59:10.673] Server  LOG     [EVAL] "India's Data Centre Boom: $80 Billion Needed by 2030 as AI & Cloud Demand Skyrockets! | Whalesbook" → score=5
+[00:59:13.775] Server  LOG     [EVAL] "Data Center Power Market Trends: Scaling Energy Infrastructure for Digital Growth" → score=4
+[00:59:16.850] Server  LOG     [EVAL] "AT&T's Strategic Move into Satellite Connectivity: A Catalyst for Long-Term Growth?" → score=4
+[00:59:20.587] Server  LOG     [EVAL] "T Expands Into Satellite Connectivity Space: Will it Boost Prospects? - The Globe and Mail" → score=3
+[00:59:22.647] Server  LOG     [EVAL] "Nigeria: Telecom Sector Shows Resilience Amid Tariff Hikes, Infrastructure Push - allAfrica.com" → score=4
+[00:59:26.191] Server  LOG     [EVAL] "IoT Telecom Services Market to Reach USD 390.86 Billion by 2032 Driven by Industrial IoT - Newstrail" → score=4
+[00:59:29.391] Server  LOG     [EVAL] "Three 5G Network Infrastructure Strategies: AT&T vs Verizon vs T-Mobile" → score=4
+[00:59:32.128] Server  LOG     [EVAL] "Looking Ahead to 2026 in Telecom and Internet Infrastructure | Telecom Ramblings" → score=3
+[00:59:34.664] Server  LOG     [EVAL] "Senators Investigate Role of A.I. Data Centers in Rising Electricity Costs - The New York Times" → score=4
+[00:59:37.664] Server  LOG     [EVAL] "Top 10 telecoms stories of 2025 | Computer Weekly" → score=2
+[00:59:40.262] Server  LOG     [EVAL] "AT&T Inc. Is Quietly Rebuilding the Backbone of U.S. Connectivity" → score=4
+[00:59:43.063] Server  LOG     [EVAL] "Samsung reportedly seals land deal, paving way for Yongin semiconductor complex" → score=3
+[00:59:45.697] Server  LOG     [EVAL] "Electronics & Semiconductor Chemicals Market Expands with a CAGR of 7.0% by 2031 | Rising Demand from Chip Manufacturing and Advanced Packaging" → score=2
+[00:59:48.199] Server  LOG     [EVAL] "Samsung’s Semiconductor Division Employees To Receive Performance Bonuses Worth Up To Half Their Annual Salaries In Early 2026, More Than Triple The Rate Last Year" → score=3
+[00:59:51.413] Server  LOG     [EVAL] "Memory Chip Market to Reach US$ 302.90 Billion by 2033 at 6.7% CAGR; Asia Pacific Leads with 38% Share - Key Players: Samsung Electronics, SK hynix, Micron Technology" → score=4
+[00:59:56.549] Server  LOG     [EVAL] "[News] Samsung Reportedly Plans 50% HBM Capacity Surge in 2026, Spotlight on HBM4" → score=4
+[00:59:56.960] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "[News] Samsung Reportedly Plans 50% HBM Capacity Surge in 2026, Spotlight on HBM4"
+[01:00:00.064] Server  LOG     [EVAL] "IDC - Global Memory Shortage Crisis: Market Analysis and the Potential Impact on the Smartphone and PC Markets in 2026" → score=4
+[01:00:03.371] Server  LOG     [EVAL] "Samsung to increase its HBM production capacity drastically amid rising AI demand" → score=4
+[01:00:03.762] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Samsung to increase its HBM production capacity drastically amid rising AI demand"
+[01:00:06.957] Server  LOG     [EVAL] "Telefónica, Global Operators Form (Another) Edge Alliance - SDxCentral" → score=3
+[01:00:09.349] Server  LOG     [EVAL] "Telefónica’s New Open Source Edge Project Cuts 5G Network Slices Into Strings - SDxCentral" → score=3
+[01:00:11.814] Server  LOG     [EVAL] "ICT Business | Telefonica Tech Reports Strong IoT Gains in Spain" → score=3
+[01:00:14.067] Server  LOG     [EVAL] "EdgeMode secures power supply for 1.5GW Spanish data center platform - DCD" → score=4
+[01:00:14.460] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "EdgeMode secures power supply for 1.5GW Spanish data center platform - DCD"
+[01:00:16.833] Server  LOG     [EVAL] "A Guide to Edge Computing Technology in 2025 - SNUC" → score=4
+[01:00:17.183] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "A Guide to Edge Computing Technology in 2025 - SNUC"
+[01:00:19.460] Server  LOG     [EVAL] "Telefónica Tech se posiciona líder en el mercado de líneas IoT en España en 2025" → score=4
+[01:00:19.843] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Telefónica Tech se posiciona líder en el mercado de líneas IoT en España en 2025"
+[01:00:23.311] Server  LOG     [EVAL] "Edge Computing Market to Reach USD 245.30 Billion by 2032 with AI-Enabled Edge Solutions - Newstrail" → score=5
+[01:00:23.925] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Edge Computing Market to Reach USD 245.30 Billion by 2032 with AI-Enabled Edge Solutions - Newstrail"
+[01:00:26.042] Server  LOG     [EVAL] "Telefónica Edges Closer to a Distributed Telco Cloud" → score=3
+[01:00:28.389] Server  LOG     [EVAL] "Iberdrola and Microsoft Strengthen Partnership With Two Long-Term PPAs" → score=3
+[01:00:30.662] Server  LOG     [EVAL] "Microsoft and Iberdrola Power AI with 150 MW Wind PPA in Spain" → score=3
+[01:00:33.223] Server  LOG     [EVAL] "Telefónica Tech and hiberus seal a strategic agreement for Latin America - Telefónica" → score=3
+[01:00:36.641] Server  LOG     [EVAL] "Mobile Edge Computing Market is Reaching at a CAGR of 17.93% During the 2025 - 2035 | Powers Industry Expansion" → score=4
+[01:00:40.475] Server  LOG     [EVAL] "Telefónica signs collective bargaining agreementswith unions until 2030 and exit plans in sevencompanies of the group in Spain - Telefónica" → score=4
+[01:00:41.429] Server  LOG     [DEDUP-DB] ⛔ Skipping duplicate "Telefónica signs collective bargaining agreementswith unions until 2030 and exit plans in sevencompanies of the group in Spain - Telefónica"
+[01:00:43.682] Server  LOG     [EVAL] "What is Edge Computing? - Telefónica" → score=3
+[01:00:45.977] Server  LOG     [EVAL] "3 Reasons to Sell CoreWeave Stock in 2026 | The Motley Fool" → score=2
+[01:00:48.396] Server  LOG     [EVAL] "Is CoreWeave Positioned to Sustain Its AI Infrastructure Momentum Amid Rising Valuation Expectations?" → score=4
+[01:00:52.078] Server  LOG     [EVAL] "How NVIDIA H100 GPUs on CoreWeave's AI Cloud Platform Delivered a Record-Breaking Graph500 Run | NVIDIA Blog" → score=4
+[01:00:55.744] Server  LOG     [EVAL] "Fortune" → score=4
+[01:00:58.583] Server  LOG     [EVAL] "CoreWeave on the Stock Exchange: AI Hype Meets Hard Reality | Eulerpool" → score=4
+[01:00:59.172] Server  LOG     [DB] 💾 Upserting 20 articles
+[01:01:00.241] Server  LOG     [DB] ✅ Upsert success
+[01:01:02.584] Server  LOG     [EVAL] "Chipwrecked: Can Nvidia avoid the crash? | The Verge" → score=3
+[01:01:05.329] Server  LOG     [EVAL] "Meet CoreWeave, the AI industry’s ticking time bomb | The Verge" → score=4
+[01:01:08.799] Server  LOG     [EVAL] "Sparkco" → score=5
+[01:01:16.222] Server  LOG     [EVAL] "Analysts See Triple-Digit Revenue Growth in 2026 for These 3 AI Infrastructure Stocks - 24/7 Wall St." → score=5
+[01:01:19.326] Server  LOG     [EVAL] "Something Ominous Is Happening in the AI Economy - The Atlantic" → score=3

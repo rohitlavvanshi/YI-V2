@@ -1,0 +1,7 @@
+{
+  "/api/manager/companies/[id]/route": "app/api/manager/companies/[id]/route.js",
+  "/api/manager/companies/[id]/start-research/route": "app/api/manager/companies/[id]/start-research/route.js",
+  "/api/manager/companies/route": "app/api/manager/companies/route.js",
+  "/manager/companies/[id]/edit/page": "app/manager/companies/[id]/edit/page.js",
+  "/manager/dashboard/page": "app/manager/dashboard/page.js"
+}

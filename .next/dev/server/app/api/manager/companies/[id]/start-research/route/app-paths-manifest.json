@@ -1,0 +1,3 @@
+{
+  "/api/manager/companies/[id]/start-research/route": "app/api/manager/companies/[id]/start-research/route.js"
+}
